@@ -29,7 +29,7 @@ public class DataBaseService {
      * @param query
      * @return
      */
-    public List<Participant> searchParticipants(String query, int startIndex,int maxResults){
+    public List<Participant> searchParticipants(String query){
 
         if(StringUtils.isEmpty(query)){
              return morphium.createQueryFor(Participant.class).asList();
