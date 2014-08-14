@@ -3,6 +3,7 @@
 <head>
     <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
 
+<<<<<<< HEAD
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +15,9 @@
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+=======
+    <#include "macros/header_imports.ftl">
+>>>>>>> 9692f7d07cf9169a9791539a2b4bf9385f6d6b16
 
     <style>
         body{
@@ -99,6 +103,7 @@
         </p>
     </div>
 
+<<<<<<< HEAD
 
 
     <div id="programmablauf" class="text-center">
@@ -429,6 +434,10 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="/static/libs/jquery/jquery-2.1.1.min.js"></script>
 <script src="/static/libs/bootstrap/js/bootstrap.min.js"></script>
+=======
+<!-- Placed at the end of the document so the pages load faster -->
+<#include "macros/footer_imports.ftl">
+>>>>>>> 9692f7d07cf9169a9791539a2b4bf9385f6d6b16
 
 </body>
 </html>
