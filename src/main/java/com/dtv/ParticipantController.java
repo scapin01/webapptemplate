@@ -1,14 +1,20 @@
 package com.dtv;
 
 import com.dtv.models.Participant;
+import com.dtv.service.DataBaseService;
 import de.caluga.morphium.Morphium;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -23,10 +29,18 @@ public class ParticipantController {
     @Resource(name = "mongo-primary")
     private Morphium morphium;
 
+    @Autowired
+    private DataBaseService dataBaseService;
+
     @RequestMapping(value="/participants", method = RequestMethod.GET)
-    public ModelAndView getMainPage(HttpServletRequest request)
+    public ModelAndView getMainPage(HttpServletRequest request,@ModelAttribute("model") ModelMap model,
+                                    @RequestParam(value = "srch-term", required = false,defaultValue="") String query)
     {
-        return new ModelAndView("participants/participants.ftl");
+
+        List<Participant> participants = dataBaseService.searchParticipants(query);
+        model.put("participants",participants);
+
+        return new ModelAndView("participants/participants.ftl",model);
     }
 
 
@@ -66,7 +80,19 @@ public class ParticipantController {
         p4.setPosition("Marketing");
         morphium.store(p4);
 
+        Participant p5 = new Participant();
+        p5.setFirstName("Thomas");
+        p5.setLastName("Fritzzz");
+        p5.setOrganization("Deutsche Tousirmus Verband");
+        p5.setPosition("Sales");
+        morphium.store(p5);
 
+        Participant p6 = new Participant();
+        p6.setFirstName("Willy");
+        p6.setLastName("Sagnol");
+        p6.setOrganization("FC Bayern");
+        p6.setPosition("Spieler");
+        morphium.store(p6);
 
         return new ModelAndView("index.ftl");
     }
