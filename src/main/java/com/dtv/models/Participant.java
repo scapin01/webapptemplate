@@ -2,6 +2,7 @@ package com.dtv.models;
 
 import de.caluga.morphium.annotations.Entity;
 import de.caluga.morphium.annotations.Id;
+import de.caluga.morphium.annotations.Index;
 import org.bson.types.ObjectId;
 
 /**
@@ -11,11 +12,15 @@ import org.bson.types.ObjectId;
  * Time: 11:28
  * To change this template use File | Settings | File Templates.
  */
-@Entity
+
+
+@Entity @Index(value = {"lastName:text,organization:text,firstName:text"})
 public class Participant {
 
     @Id
     private ObjectId id;
+
+
     private String firstName;
     private String lastName;
     private String organization;
