@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/libs/bootstrap/css/styles.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/libs/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/libs/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/libs/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/libs/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/libs/bootstrap/css/bootstrap.css.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/libs/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/libs/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/libs/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/libs/bootstrap/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/dtv.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/macros/footer_imports.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/macros/header_imports.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dtv/models/Participant.java" afterPath="$PROJECT_DIR$/src/main/java/com/dtv/models/Participant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dtv/ParticipantController.java" afterPath="$PROJECT_DIR$/src/main/java/com/dtv/ParticipantController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/participants/participants.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/participants/participants.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webapptemplate.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../RiverAppProjects/waterlevelserver/waterlevelwebapp/pom.xml" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407746571833" ignored="false" />
-    <file path="/applicationContext.xml" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407940877751" ignored="false" />
+    <file path="/applicationContext.xml" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1408010571960" ignored="false" />
     <file path="/prod-log4j.xml" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407747276949" ignored="false" />
     <file path="/web.xml" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407941607013" ignored="false" />
     <file path="$PROJECT_DIR$/tools/tomcat/webapps/docs/appdev/sample/src/mypackage/Hello.java" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407749196398" ignored="false" />
@@ -27,7 +23,7 @@
     <file path="/pom.xml" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407749639955" ignored="false" />
     <file path="/a.dummy" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407941597309" ignored="false" />
     <file path="/IndexController.java" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407750892095" ignored="false" />
-    <file path="/index.ftl" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407752161919" ignored="false" />
+    <file path="/index.ftl" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1408011250622" ignored="false" />
     <file path="/statistics.ftl" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407752676920" ignored="false" />
     <file path="$PROJECT_DIR$/../RiverAppProjects/waterlevelserver/waterlevelbackoffice/web/WEB-INF/resources/views/statistics.ftl" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407752678546" ignored="false" />
     <file path="$PROJECT_DIR$/../RiverAppProjects/waterlevelserver/waterlevelwebapp/web/WEB-INF/applicationContext.xml" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407782529640" ignored="false" />
@@ -38,9 +34,11 @@
     <file path="$PROJECT_DIR$/../RiverAppProjects/waterlevelserver/waterlevelbackend/src/main/resources/applicationContext-backend.xml" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407791835253" ignored="false" />
     <file path="$PROJECT_DIR$/../RiverAppProjects/waterlevelserver/waterlevelbackoffice/web/WEB-INF/resources/views/section_positions.ftl" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1407793552193" ignored="false" />
     <file path="/Dummy.txt" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1408009458088" ignored="false" />
-    <file path="/ParticipantController.java" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1408009496886" ignored="false" />
-    <file path="/Participant.java" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1408008855353" ignored="false" />
+    <file path="/ParticipantController.java" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1408010773668" ignored="false" />
+    <file path="/Participant.java" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1408010698394" ignored="false" />
     <file path="/Aussteller.java" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1408009005983" ignored="false" />
+    <file path="/macros.ftl" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1408011033926" ignored="false" />
+    <file path="/header_imports.ftl" changelist="bceefdd7-9f8a-4ccf-ab0b-14ae83da42cd" time="1408011795363" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,19 +99,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="31" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="856" selection-end="856" vertical-scroll-proportion="0.30729833">
+            <state line="16" column="8" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,16 +111,7 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-0.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dtv/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="502" selection-end="687" vertical-scroll-proportion="0.0">
+            <state line="125" column="23" selection-start="5768" selection-end="5768" vertical-scroll-proportion="-26.04">
               <folding />
             </state>
           </provider>
@@ -140,7 +120,25 @@
       <file leaf-file-name="index.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1624" selection-end="1827" vertical-scroll-proportion="-16.875">
+            <state line="0" column="0" selection-start="0" selection-end="1362" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header_imports.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/macros/header_imports.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="27" selection-start="315" selection-end="318" vertical-scroll-proportion="-3.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer_imports.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/macros/footer_imports.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="66" selection-start="130" selection-end="130" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -149,7 +147,7 @@
       <file leaf-file-name="ParticipantController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dtv/ParticipantController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="23" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
+            <state line="61" column="33" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,10 +155,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="participants.ftl" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="participants.ftl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/participants/participants.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="48" column="7" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.8961039">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dtv.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/dtv.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,18 +185,7 @@
       <file leaf-file-name="Participant.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dtv/models/Participant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="329" selection-end="340" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Aussteller.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dtv/models/Aussteller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+            <state line="19" column="27" selection-start="426" selection-end="434" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,18 +211,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/dev-log4j.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/prod-log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/webapptemplate/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dtv/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dtv/models/Participant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dtv/models/Aussteller.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dtv/models/Participant.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/macros/macros.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/macros/footer_imports.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/dtv/ParticipantController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/macros/header_imports.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/participants/participants.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/dtv.css" />
       </list>
     </option>
   </component>
@@ -416,7 +416,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="macros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapptemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapptemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapptemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapptemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -512,6 +576,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -657,7 +722,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -665,7 +730,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24051407" sideWeight="0.59856117" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24479803" sideWeight="0.6710059" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -736,34 +801,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="20" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/libs/jquery/jquery-2.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84245" selection-end="84245" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/prod-log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="49" selection-start="1498" selection-end="1503" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="31" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
@@ -803,9 +840,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/participants/participants.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dtv/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="502" selection-end="687" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="33" selection-start="4560" selection-end="4560" vertical-scroll-proportion="0.8450704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -817,48 +868,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1624" selection-end="1827" vertical-scroll-proportion="-16.875">
+        <state line="125" column="23" selection-start="5768" selection-end="5768" vertical-scroll-proportion="-26.04">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dtv/models/Participant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="329" selection-end="340" vertical-scroll-proportion="0.0">
+        <state line="19" column="27" selection-start="426" selection-end="434" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dtv/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="502" selection-end="687" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dtv/ParticipantController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="23" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
+        <state line="61" column="33" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/macros/footer_imports.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-0.6">
+        <state line="1" column="66" selection-start="130" selection-end="130" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="856" selection-end="856" vertical-scroll-proportion="0.30729833">
+        <state line="0" column="0" selection-start="0" selection-end="1362" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/macros/header_imports.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="315" selection-end="318" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/dtv.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/participants/participants.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="7" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.8961039">
           <folding />
         </state>
       </provider>

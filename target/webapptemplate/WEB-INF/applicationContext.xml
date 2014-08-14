@@ -8,7 +8,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context-3.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="com.webapptemplate"/>
+    <context:component-scan base-package="com.dtv"/>
     <mvc:resources mapping="/static/**" location="/static/" />
 
     <mvc:annotation-driven/>
@@ -41,7 +41,6 @@
         </property>
     </bean>-->
 
-
     <!--<bean id="localeChangeInterceptor"
           class="com.waterlevelwebapp.interceptors.RiverAppLocaleChangeInterceptor">
         <property name="paramName" value="locale" />
@@ -52,7 +51,6 @@
           class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
         <property name="defaultLocale" value="fr"/>
     </bean>-->
-
     <!--
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="ignoreResourceNotFound" value="true" />
@@ -63,7 +61,7 @@
 
     <!-- freemarker config -->
     <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
-        <property name="templateLoaderPath" value="/WEB-INF/resources/views/"/>
+        <property name="templateLoaderPath" value="/WEB-INF/views/"/>
         <property name="defaultEncoding" value="UTF-8"/>
 
     </bean>
@@ -78,6 +76,47 @@
 
 
 
+    <!-- Morphium for MongoDb -->
+
+
+    <bean id="morphium" name="mongo-primary" depends-on="setMongoHosts" class="de.caluga.morphium.Morphium">
+        <constructor-arg ref="morphium-cfg">
+        </constructor-arg>
+    </bean>
+
+    <bean id="morphium-cfg" name="morphium-cfg" class="de.caluga.morphium.MorphiumConfig">
+        <constructor-arg name="db" value="dtv" />
+        <constructor-arg name="maxConnections" value="120" />
+        <constructor-arg name="globalCacheValidTime" value="60000" />
+        <constructor-arg name="housekeepingTimeout" value="3500" />
+        <property name="defaultReadPreference" value="NEAREST" />
+        <property name="socketTimeout" value="30000"/>
+        <property name="connectionTimeout" value="40000"/>
+        <property name="maxAutoReconnectTime" value="5000"/>
+        <property name="maxWaitTime" value="60000"/>
+        <property name="blockingThreadsMultiplier" value="5"/>
+        <property name="autoreconnect" value="true"/>
+        <property name="writeTimeout" value="90000"/>
+        <property name="socketKeepAlive" value="true"/>
+        <property name="maximumRetriesWriter" value="2000"/>
+        <property name="maximumRetriesBufferedWriter" value="2000"/>
+        <property name="maximumRetriesAsyncWriter" value="2000"/>
+        <property name="retryWaitTimeAsyncWriter" value="1000"/>
+        <property name="retryWaitTimeBufferedWriter" value="1000"/>
+        <property name="retryWaitTimeWriter" value="1000"/>
+        <property name="retriesOnNetworkError" value="25"/>
+        <property name="sleepBetweenNetworkErrorRetries" value="2500"/>
+    </bean>
+    <bean id="setMongoHosts" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+        <property name="targetObject" ref="morphium-cfg"/>
+        <property name="targetMethod" value="setHosts"/>
+        <property name="arguments">
+            <list>
+                <value type="java.lang.String">localhost</value>
+
+            </list>
+        </property>
+    </bean>
 
     <!--
        View resolvers can also be configured with ResourceBundles or XML files. If you need
@@ -103,7 +142,7 @@
         <property name="targetMethod" value="initLogging"></property>
         <property name="arguments">
             <list>
-                <value>classpath:${WEBAPPTEMPLATE_ENV}-log4j.xml</value>
+                <value>classpath:${DTV_ENV}-log4j.xml</value>
             </list>
         </property>
     </bean>
