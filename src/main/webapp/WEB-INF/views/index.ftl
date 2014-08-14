@@ -1,111 +1,12 @@
 <!DOCTYPE html>
 <html manifest="/static/offline.manifest">
 <head>
-    <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon-precomposed" href="/static/img/dtv.jpg" >
-    <link rel="apple-touch-startup-image" href="/static/img/startupimagename.png" >
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <link href="http://www.deutschertourismusverband.de/favicon.ico" rel="SHORTCUT ICON">
-    <link href="/static/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/static/libs/bootstrap/css/styles.css" rel="stylesheet">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
     <#include "macros/header_imports.ftl">
-
-    <style>
-        body{
-            font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
-            background-color: #f4f4f4;
-        }
-        body {
-            padding-top: 50px;
-        }
-        .navbar-inverse {
-            border-color: inherit;
-            box-shadow: 0 0 5px #000;
-        }
-        .navbar-nav > .active > a{
-            background: none repeat scroll 0 0 #003f70!important;
-            color: #fff!important;
-        }
-        .navbar-nav > li >a:hover{
-            background: none repeat scroll 0 0 #003f70!important;
-            color: #fff!important;
-        }
-        .navbar-default .navbar-toggle:hover{background: none repeat scroll 0 0 #003f70!important;}
-        p {margin: 10px 0;}
-        #referenten p {text-align: left;padding: 10px 5px;text-shadow: 0 0 1px #fff;background-color: #fff;}
-        .programm{margin-top: 10px;background-color: #fff;padding-bottom: 10px;}
-
-        .programmHeader{
-            background: rgb(229,229,229); /* Old browsers */
-            background: -moz-linear-gradient(left,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-            background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(229,229,229,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-            background: -webkit-linear-gradient(left,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-            background: -o-linear-gradient(left,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-            background: -ms-linear-gradient(left,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-            background: linear-gradient(to right,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
-            color: #797979;
-            font-size: 14px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            font-weight: bold;
-            border: solid #ccc;
-            border-width: 0 1px 1px 0;
-        }
-        .programmContent{margin-top: 10px;}
-        .programmContent table {
-            text-align: left;
-            font-size: 12px;
-        }
-        #header > p {
-            background-color: #fff;
-            padding: 10px 5px;
-            text-shadow: 0 0 1px #fff;
-        }
-
-    </style>
-
 </head>
 <body>
 
-
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Brand</a>
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#programmablauf">Programmablauf</a></li>
-                <li><a href="#referenten">Referenten</a></li>
-                <li><a href="/participants">Teilnehmer</a></li>
-                <li><a href="#aussteller">Aussteller</a></li>
-                <li><a href="#hinweise">Organisatorische Hinweise</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">About</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
-    </div>
-</div>
+<#include "macros/header.ftl">
 
 <div id="content" class="container">
 
