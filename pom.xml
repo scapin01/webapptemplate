@@ -176,7 +176,7 @@
           <artifactId>jetty-maven-plugin</artifactId>
           <version>7.4.5.v20110725</version>
           <configuration>
-              <webApp>${basedir}/target/webapp</webApp>
+              <webApp>${basedir}//src/main/webapp</webApp>
               <scanIntervalSeconds>0</scanIntervalSeconds>
               <webAppConfig>
                   <contextPath>/</contextPath>
