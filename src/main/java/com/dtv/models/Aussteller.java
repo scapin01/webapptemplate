@@ -2,6 +2,7 @@ package com.dtv.models;
 
 import de.caluga.morphium.annotations.Entity;
 import de.caluga.morphium.annotations.Id;
+import de.caluga.morphium.annotations.Index;
 import org.bson.types.ObjectId;
 
 /**
@@ -12,7 +13,7 @@ import org.bson.types.ObjectId;
  * To change this template use File | Settings | File Templates.
  */
 
-@Entity
+@Entity @Index(value = {"organization:text,website:text"})
 public class Aussteller {
 
     @Id
@@ -20,7 +21,12 @@ public class Aussteller {
 
     private String organization;
     private String textInfo;
-    private String contact;
+    private String email;
+    private String website;
+    private String phone;
+    private String logo;
+    private String address;
+
 
     public String getOrganization() {
         return organization;
@@ -38,13 +44,6 @@ public class Aussteller {
         this.textInfo = textInfo;
     }
 
-    public String getContact() {
-        return contact;
-    }
-
-    public void setContact(String contact) {
-        this.contact = contact;
-    }
 
     public ObjectId getId() {
         return id;
@@ -52,5 +51,45 @@ public class Aussteller {
 
     public void setId(ObjectId id) {
         this.id = id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getWebsite() {
+        return website;
+    }
+
+    public void setWebsite(String website) {
+        this.website = website;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getLogo() {
+        return logo;
+    }
+
+    public void setLogo(String logo) {
+        this.logo = logo;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

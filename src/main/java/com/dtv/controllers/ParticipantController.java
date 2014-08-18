@@ -1,4 +1,4 @@
-package com.dtv;
+package com.dtv.controllers;
 
 import com.dtv.models.PaginationModel;
 import com.dtv.models.Participant;
@@ -62,32 +62,19 @@ public class ParticipantController {
 
         //Page 1 is first Page
 
-        int pageIndex = start/3 +1 ;
+        int pageIndex = start/max +1 ;
         model.put("pageIndex",pageIndex);
         List<PaginationModel> pagesIndexes = new ArrayList<PaginationModel>();
-
-        int d = (int) Math.ceil(p.getNumFound() / max);
+        int d = (int) Math.ceil((double)p.getNumFound() / max);
         for(int i=1;i<=d;i++){
 
             PaginationModel paginationModel = new PaginationModel();
             paginationModel.setPageIndex(i);
-            paginationModel.setStart(max*(i-1));
+            paginationModel.setStart(max * (i - 1));
             paginationModel.setMax(max);
             pagesIndexes.add(paginationModel);
         }
-
         model.put("pagesIndexes",pagesIndexes);
-
-
-
-
-
-
-
-
-
-
-
         return new ModelAndView("participants/participants.ftl",model);
     }
 
