@@ -49,3 +49,10 @@ p {margin: 10px 0;}
     padding: 10px 5px;
     text-shadow: 0 0 1px #fff;
 }
+
+.navbar-brand{padding-top: 0px;}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
