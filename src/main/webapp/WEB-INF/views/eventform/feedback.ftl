@@ -10,7 +10,7 @@
 <body>
 
 <#include "../macros/header.ftl">
-<#import "../macros/formMacros.ftl" as formMacros />
+<#--<#import "../macros/formMacros.ftl" as formMacros />-->
 <#import  "../macros/spring.ftl" as spring />
 
 <div id="content" class="container">
@@ -65,9 +65,37 @@
             <@spring.formInput2 'feedbackForm.moderation'  "class='rating' min=0 max=5 value='${feedbackForm.moderation}' data-show-caption='false' data-show-clear='false'  step=1 data-size='md' data-rtl='false' "  "rating" "number" />
 
         <h3>Wie haben Sie von der Veranstaltung erfahren?</h3/>
-        <#assign eventDiscoveredCheckboxes = {"Einladung":"Einladung", "Kollegen":"	Kollegen", "Presse":"Presse", "Ich war schon mehrfach auf DTV-Tagungen.":"Ich war schon mehrfach auf DTV-Tagungen."}>
-        <@formMacros.checkboxes 'feedbackForm.eventDiscovered'
-            <br/>
+        <#assign eventDiscoveredCheckboxes = {"Einladung":"Einladung", "Kollegen":"	Kollegen", "Presse":"Presse", "Ich war schon mehrfach auf DTV-Tagungen.":"Ich war schon mehrfach auf DTV-Tagungen."}>
+        <@spring.checkboxes 'feedbackForm.eventDiscovered' eventDiscoveredCheckboxes />
+
+        <h4>Andere</h4/>
+        <@spring.formInput 'feedbackForm.eventDiscoveredOther'/>
+
+        <h3>Warum sind Sie gekommen? </h3/>
+        <#assign eventwhy = {"	Die Fachvorträge hörten sich interessant und spannend an.":"Die Fachvorträge hörten sich interessant und spannend an.", "Die Fachvorträge entsprechen den aktuell diskutierten Branchenthemen.":"Die Fachvorträge entsprechen den aktuell diskutierten Branchenthemen.", "Zum Netzwerken, um meine/n Lieblingskollegin/-kollegen mal wieder zu sehen.":"Zum Netzwerken, um meine/n Lieblingskollegin/-kollegen mal wieder zu sehen.", "Ich war schon mehrfach auf DTV-Tagungen.":"Ich war schon mehrfach auf DTV-Tagungen.","Eigentlich nur wegen dem Deutschen Tourismuspreis.":"Eigentlich nur wegen dem Deutschen Tourismuspreis.","Ich wollte ohnehin einmal/wieder mal nach Freiburg.":"Ich wollte ohnehin einmal/wieder mal nach Freiburg."}>
+        <@spring.checkboxes 'feedbackForm.why' eventwhy />
+
+        <h3>Wie hat Ihnen die Veranstaltung insgesamt gefallen?</h3>
+        <@spring.formInput2 'feedbackForm.likeOverall'  "class='rating' min=0 max=5 value='${feedbackForm.likeOverall}' data-show-caption='false' data-show-clear='false'  step=1 data-size='md' data-rtl='false' "  "rating" "number" />
+
+
+
+
+        <h3>Besonders gut gefallen hat mir...</h3>
+        <@spring.formInput 'feedbackForm.like'/>
+
+        <h3>Gar nicht gefallen hat mir...</h3>
+        <@spring.formInput 'feedbackForm.didNotLike'/>
+
+        <h3>Was müssen WIR für SIE tun, damit Sie wieder kommen? (Anregungen, Tipps und Verbesserungsvorschläge)</h3>
+        <@spring.formInput 'feedbackForm.comeBack'/>
+
+        <h3>Diese Themen würden mich auf dem nächsten Deutschen Tourismustag interessieren:</h3>
+        <@spring.formInput 'feedbackForm.otherThemes'/>
+
+
+
+        <br/><br/>
            <input type="submit" value="Submit">
     </form>
 

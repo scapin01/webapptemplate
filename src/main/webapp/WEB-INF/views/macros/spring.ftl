@@ -252,6 +252,31 @@
     </#list>
 </#macro>
 
+
+<#--
+* checkboxes
+*
+* Show checkboxes.
+*
+* @param path the name of the field to bind to
+* @param options a map (value=label) of all the available options
+* @param attributes any additional attributes for the element (such as class or CSS styles or size)
+-->
+<#macro checkboxes path options attributes="">
+    <@bind path/>
+    <#list options?keys as value>
+        <#assign id="${spring.status.expression?replace('[','')?replace(']','')}${value_index}">
+        <#assign isSelected = spring.contains(spring.status.actualValue?default([""]), value)>
+    <div class="control-group">
+        <label class="control-label" for="${id}">${options[value]?html}</label>
+        <div class="controls">
+            <input type="checkbox" id="${id}" name="${spring.status.expression}" value="${value?html}"<#if isSelected> checked="checked"</#if> ${attributes}>
+        </div>
+    </div>
+    </#list>
+<input type="hidden" name="_${spring.status.expression}" value="on"/>
+</#macro>
+
 <#--
  * formCheckboxesFeatures
  *

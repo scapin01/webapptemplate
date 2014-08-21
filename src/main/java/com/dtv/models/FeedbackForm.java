@@ -2,6 +2,7 @@ package com.dtv.models;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -57,6 +58,23 @@ public class FeedbackForm {
 
     @Min(1)@Max(5)
     private int moderation;
+
+    private List<String> eventDiscovered;
+
+
+    private String eventDiscoveredOther;
+
+    private List<String> why;
+
+    @Min(1)@Max(5)
+    private int likeOverall;
+
+    private String like;
+    private String didNotLike;
+    private String comeBack;
+    private String otherThemes;
+
+
 
 
     public int getOrgQuestion1() {
@@ -185,5 +203,69 @@ public class FeedbackForm {
 
     public void setModeration(int moderation) {
         this.moderation = moderation;
+    }
+
+    public List<String> getEventDiscovered() {
+        return eventDiscovered;
+    }
+
+    public void setEventDiscovered(List<String> eventDiscovered) {
+        this.eventDiscovered = eventDiscovered;
+    }
+
+    public String getEventDiscoveredOther() {
+        return eventDiscoveredOther;
+    }
+
+    public void setEventDiscoveredOther(String eventDiscoveredOther) {
+        this.eventDiscoveredOther = eventDiscoveredOther;
+    }
+
+    public List<String> getWhy() {
+        return why;
+    }
+
+    public void setWhy(List<String> why) {
+        this.why = why;
+    }
+
+    public int getLikeOverall() {
+        return likeOverall;
+    }
+
+    public void setLikeOverall(int likeOverall) {
+        this.likeOverall = likeOverall;
+    }
+
+    public String getLike() {
+        return like;
+    }
+
+    public void setLike(String like) {
+        this.like = like;
+    }
+
+    public String getDidNotLike() {
+        return didNotLike;
+    }
+
+    public void setDidNotLike(String didNotLike) {
+        this.didNotLike = didNotLike;
+    }
+
+    public String getComeBack() {
+        return comeBack;
+    }
+
+    public void setComeBack(String comeBack) {
+        this.comeBack = comeBack;
+    }
+
+    public String getOtherThemes() {
+        return otherThemes;
+    }
+
+    public void setOtherThemes(String otherThemes) {
+        this.otherThemes = otherThemes;
     }
 }
