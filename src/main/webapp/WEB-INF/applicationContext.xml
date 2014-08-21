@@ -11,9 +11,9 @@
     <context:component-scan base-package="com.dtv"/>
     <mvc:resources mapping="/static/**" location="/static/" />
 
-    <mvc:annotation-driven/>
-
-
+    <mvc:annotation-driven validator="validator" />
+    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+            />
     <!--<mvc:interceptors>
         <ref bean="localeChangeInterceptor"/>
     </mvc:interceptors>-->
