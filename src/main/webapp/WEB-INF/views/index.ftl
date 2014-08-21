@@ -11,7 +11,8 @@
 <div id="content" class="container">
 
 <div id="header" class="text-center">
-    <h1>Deutschen Tourismustag 2014</h1>
+    <h1 class="mainH">Deutschen Tourismustag 2014</h1>
+    <img src="static/img/kv.jpg" width="1600" height="1067" alt="" />
     <p>Umweltfreundlich, sozialverträglich aber gleichzeitig ökonomisch tragfähig –
         so  wollen wir handeln. Ist dieser Anspruch zu hoch? Es ist zwar eine Gratwanderung, aber es ist notwendig, i
         m Tourismus eine Balance zwischen dem Bewahren der Ressourcen und der wirtschaftlichen Entwicklung zu finden.
@@ -297,7 +298,7 @@
     <h2>Referenten</h2>
 
     <div class="" style="margin-top: 10px;">
-        <img src="/" style="background-color: #999;width:125px;height: 125px;border: 5px solid #cccccc;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
+        <img src="static/img/Peter_Wippermann.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
         <span><b>Prof. Peter Wippermann</b></span>
         <p>
             ist Gründer der TRENDBÜRO Beratungsunternehmen für
@@ -313,7 +314,7 @@
     </div>
 
     <div class="" style="margin-top: 10px;">
-        <img src="/" style="background-color: #999;width:125px;height: 125px;border: 5px solid #cccccc;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
+        <img src="static/img/Guenther_Bachmann.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
         <span><b>Prof. Dr. Günther Bachmann</b></span>
         <p>
             ist Generalsekretär des Rates für Nachhaltige Entwicklung
@@ -326,8 +327,8 @@
     </div>
 
     <div class="" style="margin-top: 10px;">
-        <img src="/" style="background-color: #999;width:125px;height: 125px;border: 5px solid #cccccc;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
-        <span><b>PProf. Dr. Nick Lin-Hi</b></span>
+        <img src="static/img/Nick_Lin-Hi.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
+        <span><b>Prof. Dr. Nick Lin-Hi</b></span>
         <p>
             ist seit 2009 Inhaber der Juniorprofessur für Corporate Social
             Responsibility (CSR) an der Universität Mannheim. Der studierte Betriebswirt
