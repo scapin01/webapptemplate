@@ -8,6 +8,9 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context-3.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
+
+    <context:property-placeholder location="classpath:${DTV_ENV}-prop.properties" />
+
     <context:component-scan base-package="com.dtv"/>
     <mvc:resources mapping="/static/**" location="/static/" />
 
@@ -112,7 +115,7 @@
         <property name="targetMethod" value="setHosts"/>
         <property name="arguments">
             <list>
-                <value type="java.lang.String">localhost</value>
+                <value type="java.lang.String">${mongoHost}</value>
 
             </list>
         </property>

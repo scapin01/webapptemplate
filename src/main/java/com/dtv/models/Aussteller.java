@@ -25,6 +25,7 @@ public class Aussteller {
     private String website;
     private String phone;
     private String logo;
+    private String standNr;
     private String address;
 
 
@@ -91,5 +92,13 @@ public class Aussteller {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getStandNr() {
+        return standNr;
+    }
+
+    public void setStandNr(String standNr) {
+        this.standNr = standNr;
     }
 }

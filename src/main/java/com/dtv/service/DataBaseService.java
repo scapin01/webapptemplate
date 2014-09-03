@@ -37,7 +37,7 @@ public class DataBaseService {
 
         if(StringUtils.isEmpty(query)){
 
-            result.setParticipants(morphium.createQueryFor(Participant.class).skip(startIndex).limit(maxResults).asList());
+            result.setParticipants(morphium.createQueryFor(Participant.class).sort("last_name").skip(startIndex).limit(maxResults).asList());
             result.setNumFound(morphium.createQueryFor(Participant.class).countAll());
 
         }else{

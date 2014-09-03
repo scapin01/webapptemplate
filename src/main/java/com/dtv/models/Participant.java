@@ -26,6 +26,8 @@ public class Participant {
     private String organization;
     private String position;
     private String xing;
+    private String title;
+    private String city;
 
 
 
@@ -75,5 +77,21 @@ public class Participant {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 }

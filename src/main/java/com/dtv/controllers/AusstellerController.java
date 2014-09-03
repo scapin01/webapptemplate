@@ -1,6 +1,5 @@
 package com.dtv.controllers;
 
-import com.dtv.models.Aussteller;
 import com.dtv.models.AusstellerRequestResult;
 import com.dtv.models.PaginationModel;
 import com.dtv.service.DataBaseService;
@@ -77,7 +76,7 @@ public class AusstellerController {
 
 
 
-    @RequestMapping(value="/add_aussteller", method = RequestMethod.GET)
+    /*@RequestMapping(value="/add_aussteller", method = RequestMethod.GET)
     public ModelAndView addAussteller(HttpServletRequest request)
     {
 
@@ -115,6 +114,6 @@ public class AusstellerController {
 
 
         return new ModelAndView("index.ftl");
-    }
+    }*/
 
 }

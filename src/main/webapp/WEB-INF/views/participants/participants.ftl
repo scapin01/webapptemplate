@@ -31,7 +31,7 @@
         <#list participants as participant>
             <tr>
                 <td>
-                ${participant.firstName!} ${participant.lastName!}
+                    <strong><#if participant.title??>${participant.title!} </#if>${participant.lastName!}</strong> ${participant.firstName!}
                 <br/>
                 ${participant.organization!}
                 </td>

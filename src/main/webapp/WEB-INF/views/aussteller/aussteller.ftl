@@ -33,15 +33,10 @@
                 <td>
                     <strong>${aus.organization!}</strong>
                     <br/>
-                    <!--<strong>${aus.textInfo!}</strong>
-                    <br/><br/>-->
-                    ${aus.address!}
+                    Stand-Nr: ${aus.standNr!}
+
                     <br/>
-                    <abbr title="Tel">P:</abbr> ${aus.phone!}
-                    <br/>
-                    <a href="${aus.website!}">${aus.website!}</a>
-                    <br/>
-                    <a href="mailto:#">${aus.email!}</a>
+                    <a href="http://${aus.website!}">${aus.website!}</a>
                 </td>
             </tr>
             </#list>

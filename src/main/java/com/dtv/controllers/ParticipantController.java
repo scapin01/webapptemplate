@@ -40,7 +40,7 @@ public class ParticipantController {
     public ModelAndView getMainPage(HttpServletRequest request,@ModelAttribute("model") ModelMap model,
                                     @RequestParam(value = "srch-term", required = false,defaultValue="") String query,
                                     @RequestParam(value = "start", required = false,defaultValue="0") int start,
-                                    @RequestParam(value = "max", required = false,defaultValue="3") int max)
+                                    @RequestParam(value = "max", required = false,defaultValue="45") int max)
     {
 
         ParticipantRequestResult p = dataBaseService.searchParticipants(query,start,max);
