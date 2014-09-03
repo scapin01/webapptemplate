@@ -13,11 +13,11 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Home</a></li>
-                <li><a href="#programmablauf">Programmablauf</a></li>
-                <li><a href="#referenten">Referenten</a></li>
+                <li><a href="/#programmablauf">Programmablauf</a></li>
+                <li><a href="/#referenten">Referenten</a></li>
                 <li><a href="/participants">Teilnehmer</a></li>
                 <li><a href="/aussteller">Aussteller</a></li>
-                <li><a href="#hinweise">Organisatorische Hinweise</a></li>
+                <li><a href="/#hinweise">Organisatorische Hinweise</a></li>
                 <li><a href="/feedback">Umfrage</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
