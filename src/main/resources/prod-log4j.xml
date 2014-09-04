@@ -7,22 +7,13 @@
 <!--                                                                       -->
 <!-- ===================================================================== -->
 
-<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://jakarta.apache.org/log4j/ ">
 
-    <!-- ================================= -->
-    <!-- Preserve messages in a local file -->
-    <!-- ================================= -->
-
-
-    <appender name="FILE" class="org.apache.log4j.FileAppender">
-        <param name="File" value="/var/log/webapptemplate/webapptemplate.log"/>
-        <param name="Append" value="true"/>
-        <param name="BufferSize" value="2" />
-        <param name="BufferedIO" value="true"/>
-        <layout class="org.apache.log4j.PatternLayout">
-            <param name="ConversionPattern" value="%d %-5p [%c] (%t) %m%n"/>
-        </layout>
-    </appender>
+    <!-- ============================== -->
+    <!-- Append messages to the console -->
+    <!-- ============================== -->
 
     <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
         <param name="Target" value="System.out"/>
@@ -31,21 +22,36 @@
         </layout>
     </appender>
 
-    ============= -->
+    <!-- ================ -->
+    <!-- Limit categories -->
+    <!-- ================ -->
+
+    <logger name="org.springframework">
+        <level value="INFO"/>
+    </logger>
+
+    <logger name="org.apache.axis2">
+        <level value="INFO"/>
+    </logger>
+
+    <logger name="org.apache">
+        <level value="INFO"/>
+    </logger>
+
+
+    <logger name="de.caluga.morphium.annotations.caching">
+        <level value="DEBUG"/>
+    </logger>
+
+
+    <!-- ======================= -->
     <!-- Setup the Root category -->
     <!-- ======================= -->
 
     <root>
         <priority value="INFO"/>
-        <appender-ref ref="FILE"/>
+        <appender-ref ref="CONSOLE"/>
     </root>
 
-    <!--<root>
-     <priority value="INFO"/>
-     <appender-ref ref="CONSOLE"/>
-    </root>-->
 
 </log4j:configuration>
-
-
-

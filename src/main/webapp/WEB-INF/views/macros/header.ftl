@@ -17,6 +17,10 @@
                 <li><a href="/#referenten">Referenten</a></li>
                 <li><a href="/participants">Teilnehmer</a></li>
                 <li><a href="/aussteller">Aussteller</a></li>
+
+                <li><a href="/locations">Übersichtsplan Freiburg</a></li>
+
+
                 <li><a href="/#hinweise">Organisatorische Hinweise</a></li>
                 <li><a href="/feedback">Umfrage</a></li>
             </ul>

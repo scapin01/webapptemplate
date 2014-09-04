@@ -31,9 +31,11 @@
         <#list participants as participant>
             <tr>
                 <td>
-                    <strong><#if participant.title??>${participant.title!} </#if>${participant.lastName!}</strong> ${participant.firstName!}
-                <br/>
+                    <strong>${participant.lastName!?upper_case}</strong>, <#if participant.title?? && participant.title?length gt 1>(${participant.title!}) </#if>${participant.firstName!}
+                <#if participant.organization?? && participant.organization?length gt 1><br/></#if>
                 ${participant.organization!}
+                <br/>
+                <#if participant.address1?? && participant.address1?length gt 1>${participant.address1!} <#if participant.city?? && participant.city?length gt 1>, </#if></#if>${participant.city!}
                 </td>
             </tr>
         </#list>

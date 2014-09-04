@@ -349,10 +349,6 @@
 
 
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-<script src="/static/libs/bootstrap/js/bootstrap.min.js"></script>
-
-<!-- Placed at the end of the document so the pages load faster -->
 <#include "macros/footer_imports.ftl">
 
 

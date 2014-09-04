@@ -27,6 +27,7 @@ public class Participant {
     private String position;
     private String xing;
     private String title;
+    private String address1;
     private String city;
 
 
@@ -94,4 +95,13 @@ public class Participant {
     public void setCity(String city) {
         this.city = city;
     }
+
+    public String getAddress1() {
+        return address1;
+    }
+
+    public void setAddress1(String address1) {
+        this.address1 = address1;
+    }
+
 }

@@ -1,6 +1,7 @@
 package com.dtv.importers;
 
 import com.dtv.models.Participant;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -80,6 +81,19 @@ public class ParticipantImporter extends AbstractJob{
                                         break;
                                     case 5:
                                         participant.setOrganization(cell.getStringCellValue());
+                                        break;
+                                    case 6:
+                                        participant.setAddress1(cell.getStringCellValue());
+                                        break;
+                                    case 7:
+
+                                        if(StringUtils.isNotEmpty(participant.getAddress1())){
+                                            participant.setAddress1(participant.getAddress1()+" "+cell.getStringCellValue());
+                                        }else{
+                                            participant.setAddress1(cell.getStringCellValue());
+
+                                        }
+
                                         break;
                                     case 8:
                                         participant.setCity(cell.getStringCellValue());
