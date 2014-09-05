@@ -32,10 +32,13 @@
             <tr>
                 <td>
                     <strong>${participant.lastName!?upper_case}</strong>, <#if participant.title?? && participant.title?length gt 1>(${participant.title!}) </#if>${participant.firstName!}
-                <#if participant.organization?? && participant.organization?length gt 1><br/></#if>
-                ${participant.organization!}
-                <br/>
-                <#if participant.address1?? && participant.address1?length gt 1>${participant.address1!} <#if participant.city?? && participant.city?length gt 1>, </#if></#if>${participant.city!}
+
+                    <#if participant.position?? && participant.position?length gt 1><br/>${participant.position!}</#if>
+
+                    <br/>
+                <#if participant.address1?? && participant.address1?length gt 1>${participant.address1!}</#if><#if participant.city?? && participant.city?length gt 0>, ${participant.city!}</#if>
+                <#if participant.xing?? && participant.xing?length gt 0><a href="${participant.xing!}" target="_blank" rel="me"><br/><img src="http://www.xing.com/img/buttons/9_de_btn.gif" width="80" height="15" alt="XING"></a>
+                </#if>
                 </td>
             </tr>
         </#list>

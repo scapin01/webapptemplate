@@ -60,10 +60,12 @@ public class ParticipantImporter extends AbstractJob{
                     {
                         cell = cellIterator.next();
 
+
+
                         switch (cell.getCellType())
                         {
                             case Cell.CELL_TYPE_STRING:
-                                switch (cellIndex){
+                                switch (cell.getColumnIndex()){
                                     case 0:
                                         participant.setTitle(cell.getStringCellValue());
                                         break;
@@ -80,20 +82,17 @@ public class ParticipantImporter extends AbstractJob{
                                         participant.setXing(cell.getStringCellValue());
                                         break;
                                     case 5:
-                                        participant.setOrganization(cell.getStringCellValue());
-                                        break;
-                                    case 6:
                                         participant.setAddress1(cell.getStringCellValue());
                                         break;
-                                    case 7:
+                                    case 6:
 
-                                        if(StringUtils.isNotEmpty(participant.getAddress1())){
-                                            participant.setAddress1(participant.getAddress1()+" "+cell.getStringCellValue());
-                                        }else{
-                                            participant.setAddress1(cell.getStringCellValue());
-
+                                        if(StringUtils.isNotEmpty(cell.getStringCellValue())){
+                                            if(StringUtils.isNotEmpty(participant.getAddress1())){
+                                                participant.setAddress1(participant.getAddress1()+" "+cell.getStringCellValue());
+                                            }else{
+                                                participant.setAddress1(cell.getStringCellValue());
+                                            }
                                         }
-
                                         break;
                                     case 8:
                                         participant.setCity(cell.getStringCellValue());

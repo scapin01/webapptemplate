@@ -14,18 +14,17 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="/#programmablauf">Programmablauf</a></li>
+                <li><a href="/#hinweise">Organisatorische Hinweise</a></li>
+
                 <li><a href="/#referenten">Referenten</a></li>
                 <li><a href="/participants">Teilnehmer</a></li>
                 <li><a href="/aussteller">Aussteller</a></li>
 
                 <li><a href="/locations">Übersichtsplan Freiburg</a></li>
 
+                <li><a href="/twitter">Twitter Wall</a></li>
 
-                <li><a href="/#hinweise">Organisatorische Hinweise</a></li>
                 <li><a href="/feedback">Umfrage</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">About</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

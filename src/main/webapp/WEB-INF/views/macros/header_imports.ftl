@@ -13,6 +13,14 @@
 <link href="static/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="static/libs/bootstrap/css/styles.css" rel="stylesheet">
 
+<script type='application/javascript' src='static/js/fastclick.js'></script>
+<script type='application/javascript'>
+    window.addEventListener('load', function() {
+        new FastClick(document.body);
+    }, false);
+</script>
+
+
 <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->

@@ -10,15 +10,15 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Created with IntelliJ IDEA.
  * User: florianbessiere
- * Date: 04.09.14
- * Time: 10:52
+ * Date: 05.09.14
+ * Time: 11:38
  * To change this template use File | Settings | File Templates.
  */
+
 @Controller
-public class LocationsController {
+public class TwitterWallController {
 
-
-    @RequestMapping(value="/locations", method = RequestMethod.GET)
+    @RequestMapping(value="/twitter", method = RequestMethod.GET)
     public ModelAndView getLocations(HttpServletRequest request)
     {
 
@@ -26,6 +26,7 @@ public class LocationsController {
 
 
 
-        return new ModelAndView("locations/locations.ftl");
+        return new ModelAndView("twitter/twitterwall.ftl");
     }
+
 }
