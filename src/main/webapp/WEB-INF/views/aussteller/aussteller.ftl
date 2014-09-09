@@ -25,6 +25,15 @@
         </div>
     </form>
 
+    <style>
+        .table.table-condensed img {
+            background-color: #ddd;
+            border: 2px solid #fff;
+            box-shadow: 0 0 2px #000;
+            padding: 5px;
+        }
+    </style>
+
 
     <#if aussteller?? && aussteller?size gt 0>
 
@@ -34,10 +43,10 @@
                 <#list aussteller as aus>
                 <tr>
                     <td>
-                        <strong>${aus.organization!}</strong>
+                        <strong>${aus.organization!}</strong><br>
+                        <img alt="${aus.organization!}" src="static/img/aussteller/europapark.png" />
                         <br/>
                         Stand-Nr: ${aus.standNr!}
-
                         <br/>
                         <a href="http://${aus.website!}">${aus.website!}</a>
                     </td>

@@ -13,7 +13,10 @@
 <link href="static/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="static/libs/bootstrap/css/styles.css" rel="stylesheet">
 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type='application/javascript' src='static/js/fastclick.js'></script>
+<script type='application/javascript' src='static/js/jquery.lazyload.min.js'></script>
 <script type='application/javascript'>
     window.addEventListener('load', function() {
         new FastClick(document.body);

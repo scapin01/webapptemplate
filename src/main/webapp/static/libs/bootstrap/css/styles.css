@@ -65,7 +65,7 @@ img {
     padding-top: 10px;
 }
 
-.table.table-condensed img {
+#locationSite .table.table-condensed img {
     border: 2px solid #fff;
     box-shadow: 0 0 2px #000;
     margin-top: 5px;

@@ -6,13 +6,13 @@
 <#include "../macros/header_imports.ftl">
 
 </head>
-<body>
+<body id="locationSite">
 
 <#include "../macros/header.ftl">
 
 <div id="content" class="container">
 
-    <div id="aussteller" class="text-center">
+    <div id="location" class="text-center">
         <h2>Übersichtsplan Freiburg</h2>
 
     <table class="table table-condensed">

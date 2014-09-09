@@ -9,6 +9,9 @@
             <a class="navbar-brand" href="#">
                 <img src="static/img/dtv_logo.jpg" width="85" height="" alt="" />
             </a>
+            <div class="" style="float: left;">
+                <img src="static/img/aussteller/logo_orange@2x.png" width="150" height="" style="margin-top: 20px;">
+            </div>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
