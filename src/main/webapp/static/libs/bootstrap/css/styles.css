@@ -52,7 +52,60 @@ p {margin: 10px 0;}
 
 .navbar-brand{padding-top: 0px;}
 
+.navbar-collapse{max-height: 372px;}
+
 img {
     height: auto;
     max-width: 100%;
+}
+
+.navbar-nav{margin-top: 2px;}
+.navbar-nav > li > a {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.table.table-condensed img {
+    border: 2px solid #fff;
+    box-shadow: 0 0 2px #000;
+    margin-top: 5px;
+}
+#feedback.text-center {
+    text-align: left;
+}
+#feedback h4 {
+    margin-bottom: 0;
+}
+.controls > input {
+    float: left;
+    margin-right: 6px;
+    margin-top: 2px;
+}
+
+#feedbackForm p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#feedbackForm input[type="submit"] {
+    height: 30px;
+    width: 280px;
+}
+
+#feedbackForm .txtinput.inputValid {
+    height: 50px;
+    width: 280px;
+}
+
+form#feedbackForm {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width:768px){
+    .navbar-brand{padding-left: 0px;}
+    .controls label {
+        width: 280px;
+    }
+
 }

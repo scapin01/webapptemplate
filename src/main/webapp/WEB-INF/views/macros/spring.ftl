@@ -268,9 +268,10 @@
         <#assign id="${spring.status.expression?replace('[','')?replace(']','')}${value_index}">
         <#assign isSelected = spring.contains(spring.status.actualValue?default([""]), value)>
     <div class="control-group">
-        <label class="control-label" for="${id}">${options[value]?html}</label>
+
         <div class="controls">
             <input type="checkbox" id="${id}" name="${spring.status.expression}" value="${value?html}"<#if isSelected> checked="checked"</#if> ${attributes}>
+            <label class="control-label" for="${id}">${options[value]?html}</label>
         </div>
     </div>
     </#list>

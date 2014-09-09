@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Index</title>
+    <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
 
 <#include "../macros/header_imports.ftl">
 
@@ -11,6 +11,9 @@
 <#include "../macros/header.ftl">
 
 <div id="content" class="container">
+
+    <div id="participants" class="text-center">
+        <h2>Teilnehmerliste</h2>
 
 
     <form class="navbar-form" role="search">
@@ -84,6 +87,8 @@
 
 
     </#if>
+
+    </div>
 
     <!-- Placed at the end of the document so the pages load faster -->
 <#include "../macros/footer_imports.ftl">
