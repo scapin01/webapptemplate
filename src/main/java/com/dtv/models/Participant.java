@@ -19,14 +19,15 @@ public class Participant {
 
     @Id
     private ObjectId id;
-
-
+    @Index
     private String firstName;
+    @Index
     private String lastName;
     private String organization;
     private String position;
     private String xing;
     private String title;
+    @Index
     private String address1;
     private String city;
 

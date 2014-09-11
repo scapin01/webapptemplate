@@ -27,6 +27,29 @@ public class AusstellerImporter extends AbstractJob{
 
     public void start(){
 
+
+
+        /*String query = "Florian";
+
+
+        long start = System.currentTimeMillis();
+        for(int i=0;i<500;i++){
+            Query<Participant> q=morphium.createQueryFor(Participant.class);
+            query = query.toLowerCase();
+            q=q.or(q.q().f("last_name").matches(".*"+query+".*"),q.q().f("address1").matches(".*"+query+".*"),q.q().f("address1").matches(".*"+query+".*"));
+            q.asList();
+        }
+        long stop1 = System.currentTimeMillis();
+        logger.info("Time q1:"+ (stop1 - start)/1000 +" s");
+        for(int i=0;i<500;i++){
+            Query<Participant> q=morphium.createQueryFor(Participant.class);
+            query = query.toLowerCase();
+            q=q.or(q.q().f("last_name").matches(query),q.q().f("address1").matches(query),q.q().f("address1").matches(query));
+            q.asList();
+        }
+        long stop2 = System.currentTimeMillis();
+        logger.info("Time q2:"+ (stop2 - stop1)/1000 +" s");*/
+
         List<Aussteller> ausstellers = new ArrayList<Aussteller>();
 
         try {

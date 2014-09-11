@@ -56,7 +56,7 @@ public class DataBaseService {
 
                 Query<Participant> q=morphium.createQueryFor(Participant.class);
                 query = query.toLowerCase();
-                q=q.or(q.q().f("last_name").matches(".*"+query+".*"),q.q().f("address1").matches(".*"+query+".*"),q.q().f("address1").matches(".*"+query+".*"));
+                q=q.or(q.q().f("last_name").matches(query),q.q().f("address1").matches(query),q.q().f("first_name").matches(query));
                 result.setParticipants(q.asList());
                 result.setNumFound(q.countAll());
 

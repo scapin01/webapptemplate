@@ -16,14 +16,6 @@
         <h2>Austellerliste</h2>
 
 
-    <form class="navbar-form" role="search">
-        <div class="input-group add-on">
-            <input class="form-control" placeholder="Suchen nach Organization..." name="srch-term" id="srch-term" type="text" value="${query!}">
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-            </div>
-        </div>
-    </form>
 
     <style>
         .table.table-condensed img {
