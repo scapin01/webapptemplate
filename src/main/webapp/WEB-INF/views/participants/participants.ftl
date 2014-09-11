@@ -94,4 +94,5 @@
 <#include "../macros/footer_imports.ftl">
 
 </body>
+</html>
 

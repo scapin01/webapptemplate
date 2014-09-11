@@ -74,11 +74,17 @@ p {margin: 10px 0;}
     background-color: #fff;
     padding: 10px 5px;
     text-shadow: 0 0 1px #fff;
+    text-align: justify;
 }
+
+#overview {background-color: #fff;padding: 5px 10px;text-align: left;}
+#overview h2 {margin-top: 0px;}
+#overview ul{list-style-type: none;padding-left: 0px;color: #428bca;line-height: 30px;margin-left: 25px;}
+#overview ul a {text-decoration: none;}
 
 .navbar-brand{padding-top: 0px;}
 
-.navbar-collapse{max-height: 372px;}
+.navbar-collapse{max-height: 412px;}
 
 img {
     height: auto;
@@ -135,6 +141,15 @@ form#feedbackForm {
     }
 
 }
+
+#book {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-align: left;
+}
+#book h2{margin-top: 0px;}
+#book a{color: #de7615;text-decoration: none;margin-left: 25px;}
 
 .footer{border-top: solid 2px #999;background-color: #ddd;height: 65px;}
 .footer a{color: #003f70}
