@@ -5,6 +5,7 @@ import com.dtv.models.AusstellerRequestResult;
 import com.dtv.models.Participant;
 import com.dtv.models.ParticipantRequestResult;
 import de.caluga.morphium.Morphium;
+import de.caluga.morphium.query.Query;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
@@ -42,8 +43,28 @@ public class DataBaseService {
 
         }else{
 
-            result.setParticipants(morphium.createQueryFor(Participant.class).text(query).sort("last_name").skip(startIndex).limit(maxResults).asList());
-            result.setNumFound(morphium.createQueryFor(Participant.class).text(query).countAll());
+            if(query.length()<4){
+
+                Query<Participant> q=morphium.createQueryFor(Participant.class);
+                query = query.toLowerCase();
+                q=q.or(q.q().f("last_name").matches("^"+query),q.q().f("address1").matches("^"+query),q.q().f("first_name").matches("^"+query));
+                result.setParticipants(q.asList());
+                result.setNumFound(q.countAll());
+
+
+            }else if(query.length()<8){
+
+                Query<Participant> q=morphium.createQueryFor(Participant.class);
+                query = query.toLowerCase();
+                q=q.or(q.q().f("last_name").matches(".*"+query+".*"),q.q().f("address1").matches(".*"+query+".*"),q.q().f("address1").matches(".*"+query+".*"));
+                result.setParticipants(q.asList());
+                result.setNumFound(q.countAll());
+
+
+            }else{
+                result.setParticipants(morphium.createQueryFor(Participant.class).text(query).sort("last_name").skip(startIndex).limit(maxResults).asList());
+                result.setNumFound(morphium.createQueryFor(Participant.class).text(query).countAll());
+            }
 
         }
         return result;

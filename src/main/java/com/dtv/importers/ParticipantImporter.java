@@ -76,7 +76,7 @@ public class ParticipantImporter extends AbstractJob{
                                         participant.setFirstName(cell.getStringCellValue());
                                         break;
                                     case 3:
-                                        participant.setLastName(cell.getStringCellValue());
+                                        participant.setLastName(cell.getStringCellValue().toLowerCase());
                                         break;
                                     case 4:
                                         participant.setXing(cell.getStringCellValue());

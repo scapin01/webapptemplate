@@ -14,7 +14,7 @@ import org.bson.types.ObjectId;
  */
 
 
-@Entity @Index(value = {"lastName:text,organization:text,firstName:text"})
+@Entity @Index(value = {"lastName:text,address1:text,firstName:text"})
 public class Participant {
 
     @Id
