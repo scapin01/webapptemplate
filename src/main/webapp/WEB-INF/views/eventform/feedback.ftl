@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<script src="http://192.168.44.47:8081/target/target-script-min.js"></script>
 <html>
 <head>
     <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
@@ -73,7 +74,7 @@
         <#assign eventDiscoveredCheckboxes = {"Einladung":"Einladung", "Kollegen":"	Kollegen", "Presse":"Presse", "Ich war schon mehrfach auf DTV-Tagungen.":"Ich war schon mehrfach auf DTV-Tagungen."}>
         <@spring.checkboxes 'feedbackForm.eventDiscovered' eventDiscoveredCheckboxes />
 
-        <span><b>Andere</h4/>
+        <span><b>Andere</b/>
         <@spring.formInput 'feedbackForm.eventDiscoveredOther'/>
 
         <p>Warum sind Sie gekommen? </p>
@@ -101,7 +102,7 @@
 
 
         <br/><br/>
-           <input type="submit" value="Feedback Absenden">
+           <input type="submit" value="Feedback Absenden" style="width: 280px;height: 30px;border-radius: 0px;">
     </form>
 
 

@@ -271,7 +271,7 @@
 
         <div class="controls">
             <input type="checkbox" id="${id}" name="${spring.status.expression}" value="${value?html}"<#if isSelected> checked="checked"</#if> ${attributes}>
-            <label class="control-label" for="${id}">${options[value]?html}</label>
+            <label style="width: 240px;" class="control-label" for="${id}">${options[value]?html}</label>
         </div>
     </div>
     </#list>

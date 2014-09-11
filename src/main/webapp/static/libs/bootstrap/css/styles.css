@@ -134,7 +134,7 @@ form#feedbackForm {
 }
 
 
-@media (max-width:768px){
+@media handheld, only screen and (max-width:768px){
     .navbar-brand{padding-left: 0px;}
     .controls label {
         width: 280px;
@@ -150,6 +150,8 @@ form#feedbackForm {
 }
 #book h2{margin-top: 0px;}
 #book a{color: #de7615;text-decoration: none;margin-left: 25px;}
+
+label.control-label{width: 280px;}
 
 .footer{border-top: solid 2px #999;background-color: #ddd;height: 65px;}
 .footer a{color: #003f70}
