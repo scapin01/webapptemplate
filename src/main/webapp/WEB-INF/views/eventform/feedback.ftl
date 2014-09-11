@@ -113,4 +113,5 @@
 <script src="/static/libs/bootstrapstartrating/star-rating.min.js"></script>
 
 </body>
+</html>
 
