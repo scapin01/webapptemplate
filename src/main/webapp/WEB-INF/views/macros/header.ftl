@@ -28,6 +28,7 @@
                 <li><a href="/twitter">Twitter Wall</a></li>
 
                 <li><a href="/feedback">Umfrage</a></li>
+                <li><a href="http://de.holidayinsider.com/search/filter/mf_locations/%22Freiburg%22?tech=mobile" target="_blank">Unterkunft suchen</a> </li>
             </ul>
         </div>
     </div>
