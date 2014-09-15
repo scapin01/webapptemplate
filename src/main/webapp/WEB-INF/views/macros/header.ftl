@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-                <img src="static/img/dtv_logo.jpg" width="83" height="" alt="DTV 2014" />
+                <img src="static/img/dtvLogo.png" width="95" height="" alt="DTV 2014" />
             </a>
             <div class="" style="float: left;">
                 <img src="static/img/aussteller/logo_orange@2x.png" alt="HolidayInsider" width="150" height="" style="margin-top: 20px;">
@@ -17,16 +17,13 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="/programmablauf">Programmablauf</a></li>
-                <li><a href="/hinweise">Organisatorische Hinweise</a></li>
-
+                <li><a href="/info">Info zum Rahmenprogramm</a></li>
                 <li><a href="/referenten">Referenten</a></li>
                 <li><a href="/participants">Teilnehmer</a></li>
                 <li><a href="/aussteller">Aussteller</a></li>
-
                 <li><a href="/locations">Übersichtsplan Freiburg</a></li>
-
+                <li><a href="/anreise">Anreise</a></li>
                 <li><a href="/twitter">Twitter Wall</a></li>
-
                 <li><a href="/feedback">Umfrage</a></li>
                 <li><a href="http://de.holidayinsider.com/search/filter/mf_locations/%22Freiburg%22?tech=mobile" target="_blank">Unterkunft suchen</a> </li>
             </ul>

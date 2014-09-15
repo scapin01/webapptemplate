@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html manifest="/static/offline.manifest">
 <head>
-
     <#include "macros/header_imports.ftl">
 </head>
 <body>
@@ -23,7 +21,7 @@
 </div>
 
 <div id="overview" class="text-center">
-    <h2>DTV Übersicht</h2>
+    <h2>DTT Übersicht</h2>
     <ul>
         <li><a href="/programmablauf"><i class="glyphicon glyphicon-arrow-right"></i> Programmablauf</a></li>
         <li><a href="/hinweise"><i class="glyphicon glyphicon-arrow-right"></i> Organisatorische Hinweise</a></li>

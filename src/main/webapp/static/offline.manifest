@@ -1,9 +1,0 @@
-CACHE MANIFEST
-#This is a comment
-
-CACHE
-/WEB-INF/views/index.ftl
-/static/libs/bootstrap/css/styles.css
-/static/libs/bootstrap/css/bootstrap.min.css
-/static/img/dtv.jpg
-/static/img/startupimagename.png
