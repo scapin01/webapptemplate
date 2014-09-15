@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<script src="http://192.168.44.47:8081/target/target-script-min.js"></script>
 <html>
 <head>
     <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
