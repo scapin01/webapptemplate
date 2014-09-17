@@ -94,7 +94,6 @@ public class AusstellerImporter extends AbstractJob{
                                 }
 
                                 break;
-
                             case Cell.CELL_TYPE_STRING:
                                 switch (cellIndex){
 
@@ -103,6 +102,10 @@ public class AusstellerImporter extends AbstractJob{
                                         break;
                                     case 2:
                                         aussteller.setWebsite(cell.getStringCellValue());
+                                        break;
+
+                                    case 3:
+                                        aussteller.setLogo(cell.getStringCellValue());
                                         break;
                                 }
 

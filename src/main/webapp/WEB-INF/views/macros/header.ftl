@@ -17,14 +17,14 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="/programmablauf">Programmablauf</a></li>
-                <li><a href="/info">Info zum Rahmenprogramm</a></li>
-                <li><a href="/referenten">Referenten</a></li>
                 <li><a href="/participants">Teilnehmer</a></li>
+                <li><a href="/referenten">Referenten</a></li>
+                <li><a href="/info">Info zum Rahmenprogramm</a></li>
                 <li><a href="/aussteller">Aussteller</a></li>
+                <li><a href="/anreise">Anreise nach Freiburg</a></li>
                 <li><a href="/locations">Übersichtsplan Freiburg</a></li>
-                <li><a href="/anreise">Anreise</a></li>
+                <li><a href="/feedback">Feedbackbogen</a></li>
                 <li><a href="/twitter">Twitter Wall</a></li>
-                <li><a href="/feedback">Umfrage</a></li>
                 <li><a href="http://de.holidayinsider.com/search/filter/mf_locations/%22Freiburg%22?tech=mobile" target="_blank">Unterkunft suchen</a> </li>
             </ul>
         </div>

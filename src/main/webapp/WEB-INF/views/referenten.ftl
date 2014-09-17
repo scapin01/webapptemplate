@@ -19,7 +19,7 @@
             <img class="lazy" alt="" src="" data-original="static/img/Peter_Wippermann.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Prof. Peter Wippermann</b></span>
             <p>
-                ist Gründer der TRENDBÜRO Beratungsunternehmen für
+                Prof. Peter Wippermann ist Gründer der TRENDBÜRO Beratungsunternehmen für
                 gesellschaftlichen Wandel GmbH und lehrt Kommunikationsdesign an der Folkwang
                 Universität der Künste in Essen. Er gilt als einer der führenden Trendforscher Deutschlands.
                 Prof. Wippermann, der den Begriff der ‘Ich-AG’ einführte, ist auf Kommunikationsstrategien
@@ -35,7 +35,7 @@
             <img class="lazy" alt="" src="" data-original="static/img/Guenther_Bachmann.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Prof. Dr. Günther Bachmann</b></span>
             <p>
-                ist Generalsekretär des Rates für Nachhaltige Entwicklung
+                Prof. Dr. Günther Bachmann ist Generalsekretär des Rates für Nachhaltige Entwicklung
                 (RNE) und berät die Bundesregierung zur Nachhaltigkeitspolitik. Von 1983 bis 2001 war er
                 im Umweltbundesamt tätig. Aktuell begleitet er neben der Ratsarbeit u.a. den Deutschen
                 Nachhaltigkeitspreis und sitzt dessen Jury vor. Er ist Kurator der Umweltstiftung der Allianz
@@ -48,7 +48,7 @@
             <img class="lazy" alt="" src="" data-original="static/img/Nick_Lin-Hi.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Prof. Dr. Nick Lin-Hi</b></span>
             <p>
-                ist seit 2009 Inhaber der Juniorprofessur für Corporate Social
+                Prof. Dr. Nick Lin-Hi ist seit 2009 Inhaber der Juniorprofessur für Corporate Social
                 Responsibility (CSR) an der Universität Mannheim. Der studierte Betriebswirt
                 beschäftigt sich mit der Bedeutung von CSR für langfristigen Erfolg. Zu seinen
                 Forschungsschwerpunkten gehören Arbeits- und Sozialstandards in Lieferketten, CSR-

@@ -12,19 +12,19 @@
 
 <div id="content" class="container">
 
-    <div id="aussteller" class="text-center">
-        <h2>Austellerliste</h2>
+    <div id="aussteller">
+        <h2 class="text-center">Austellerliste</h2>
 
 
 
-    <style>
+    <!--<style>
         .table.table-condensed img {
             background-color: #ddd;
             border: 2px solid #fff;
             box-shadow: 0 0 2px #000;
             padding: 5px;
         }
-    </style>
+    </style>-->
 
 
     <#if aussteller?? && aussteller?size gt 0>
@@ -34,11 +34,14 @@
 
                 <#list aussteller as aus>
                 <tr>
+
+                    <td style="vertical-align:middle">
+                        <img  width="60px" alt="${aus.organization!}" src="static/img/aussteller/${aus.logo!}" />
+                    </td>
                     <td>
-                        <strong>${aus.organization!}</strong><br>
-                        <img alt="${aus.organization!}" src="static/img/aussteller/europapark.png" />
+                        <strong>${aus.organization!}</strong>
                         <br/>
-                        Stand-Nr: ${aus.standNr!}
+                        <span class="cellSubtitle">Stand-Nr: ${aus.standNr!}</span>
                         <br/>
                         <a href="http://${aus.website!}">${aus.website!}</a>
                     </td>

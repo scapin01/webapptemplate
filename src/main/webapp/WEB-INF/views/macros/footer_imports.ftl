@@ -3,8 +3,8 @@
     <div id="" class="text-center">
       <p>
           Deutscher Tourismusverband e.V.  <br>
-          <a href="http://www.deutschertourismusverband.de/service/impressum.html">Impressum</a> |
-          <a href="mailto:kontakt‎@‎deutschertourismusverband.de">Kontakt</a>
+          <a href="/impressum">Impressum</a> |
+          <a href="mailto:tagung@deutschertourismusverband.de">Kontakt</a>
 
       </p>
     </div>
