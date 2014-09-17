@@ -85,7 +85,7 @@
                         <td width="65%">
                             <b>HERZLICH WILLKOMMEN</b><br/><br/>
 
-                            <b>Moderation</b><br/>
+                            <b><span style="text-decoration: underline;">Moderation</span></b><br/>
                             Peter Siemering, Vizepräsident des DTV<br/>
                             Geschäftsführer Bremer Touristik-Zentrale Ges. für Marketing und Service mbH<br/><br/>
 
@@ -105,7 +105,7 @@
                         <td width="65%">
                             <b>GRUNDLAGEN ERHALTEN</b><br/><br/>
 
-                            <b>Moderation</b><br/>
+                            <b><span style="text-decoration: underline;">Moderation</span></b><br/>
                             <b>Dieter Hütte</b>, Vorstandmitglied des DTV<br/>
                             Geschäftsführer Tourismus-Marketing Brandenburg GmbH, Potsdam<br/><br/>
 
