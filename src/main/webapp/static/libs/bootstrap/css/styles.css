@@ -79,6 +79,11 @@ p {margin: 10px 0;}
     text-align: justify;
 }
 
+.participantLetterSeparator{
+    background-color: lightgray;
+    height: 0px;
+}
+
 #overview {background-color: #fff;padding: 5px 10px;text-align: left;}
 #overview h2 {margin-top: 0px;}
 #overview ul{list-style-type: none;padding-left: 0px;color: #428bca;line-height: 30px;margin-left: 25px;}
