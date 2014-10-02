@@ -24,10 +24,7 @@
             </div>
         </div>
     </form>
-
-
     <#if participants?? && participants?size gt 0>
-
     <table class="table table-condensed">
         <tbody>
 
