@@ -23,11 +23,11 @@
         <li><a href="/participants"><i class="glyphicon glyphicon-arrow-right"></i> Teilnehmer</a></li>
         <li><a href="/referenten"><i class="glyphicon glyphicon-arrow-right"></i> Referenten</a></li>
         <li><a href="/aussteller"><i class="glyphicon glyphicon-arrow-right"></i> Aussteller</a></li>
-        <li><a href="/info"><i class="glyphicon glyphicon-arrow-right"></i> Info zum Rahmenprogramm</a></li>
+        <li><a href="/info"><i class="glyphicon glyphicon-arrow-right"></i> Infos zum Rahmenprogramm</a></li>
         <li><a href="/anreise"><i class="glyphicon glyphicon-arrow-right"></i> Anreise nach Freiburg</a></li>
         <li><a href="/locations"><i class="glyphicon glyphicon-arrow-right"></i> Übersichtsplan Freiburg</a></li>
         <li><a href="/feedback"><i class="glyphicon glyphicon-arrow-right"></i> Feedbackbogen</a></li>
-        <li><a href="/twitter"><i class="glyphicon glyphicon-arrow-right"></i> Twitter Wall</a></li>
+        <li><a href="/twitter"><i class="glyphicon glyphicon-arrow-right"></i> Twitterwall</a></li>
     </ul>
 
 </div>

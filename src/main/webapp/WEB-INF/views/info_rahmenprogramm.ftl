@@ -13,7 +13,7 @@
 <div id="content" class="container">
 
     <div id="InfoRahm" class="text-center">
-        <h2>Info zum Rahmenprogramm</h2>
+        <h2>Infos zum Rahmenprogramm</h2>
 
         <div class="programm">
             <div class="programmHeader">

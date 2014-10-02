@@ -18,6 +18,50 @@
     <table class="table table-condensed">
         <tbody>
 
+
+        <tr>
+            <td>
+                <!--<h4>Tagung (23.10.), Vorstandssitzung (22.10.), Mitgliederversammlung (24.10.)</h4>-->
+                <strong>Radstation Hauptbahnhof</strong>
+                <br/>
+                Wentzingerstraße 15
+                <br/>
+                79106 Freiburg im Breisgau
+                <br/>
+                <a href="https://www.google.de/maps/place/Konrad-Adenauer-Platz+1,+79098+Freiburg/@47.996015,7.849208,17z/data=!3m1!4b1!4m2!3m1!1s0x47911b6191d4b365:0x722c01a6137486cf"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=15&size=280x150&maptype=roadmap&markers=color:green|label:Konzerthaus%20Freiburg|47.9960195,7.8421995&sensor=false" /></a>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <!--<h4>Tagung (23.10.), Vorstandssitzung (22.10.), Mitgliederversammlung (24.10.)</h4>-->
+                <strong>Tourist Information Freiburg</strong>
+                <br/>
+                Am Rathausplatz
+                <br/>
+                79098 Freiburg im Breisgau
+                <br/>
+                <a href="https://www.google.de/maps/place/Konrad-Adenauer-Platz+1,+79098+Freiburg/@47.996360,7.838683,17z/data=!3m1!4b1!4m2!3m1!1s0x47911b6191d4b365:0x722c01a6137486cf"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=15&size=280x150&maptype=roadmap&markers=color:green|label:Konzerthaus%20Freiburg|47.9960195,7.8421995&sensor=false" /></a>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <!--<h4>Tagung (23.10.), Vorstandssitzung (22.10.), Mitgliederversammlung (24.10.)</h4>-->
+                <strong>Augustinermuseum</strong>
+                <br/>
+                Gerberau 15
+                <br/>
+                79098 Freiburg im Breisgau
+                <br/>
+                <a href="https://www.google.de/maps/place/Konrad-Adenauer-Platz+1,+79098+Freiburg/@47.993160,7.853070,17z/data=!3m1!4b1!4m2!3m1!1s0x47911b6191d4b365:0x722c01a6137486cf"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=15&size=280x150&maptype=roadmap&markers=color:green|label:Konzerthaus%20Freiburg|47.9960195,7.8421995&sensor=false" /></a>
+
+            </td>
+        </tr>
+
+
             <tr>
                 <td>
                     <!--<h4>Tagung (23.10.), Vorstandssitzung (22.10.), Mitgliederversammlung (24.10.)</h4>-->
@@ -50,7 +94,7 @@
             <tr>
                 <td>
                     <!--<h4>Abendveranstaltung (23.10.)</h4>-->
-                    <strong>Schloss Reinach Munzingen</strong>
+                    <strong>Schlossbuckhalle Munzingen & Schloss Reinach Munzingen</strong>
                     <br/>
                     St.-Erentrudis-Straße 12
                     <br/>
@@ -62,19 +106,7 @@
                 </td>
             </tr>
 
-            <tr>
-                <td>
-                    <!--<h4>Preisverleihung Deutscher Tourismuspreis (23.10.)</h4>-->
-                    <strong>Schlossbuckhalle Munzingen</strong>
-                    <br/>
-                    St. Erentrudis-Str. 21
-                    <br/>
-                    79112 Freiburg
-                    <br/>
-                    <a href="https://www.google.de/maps/place/St.-Erentrudis-Stra%C3%9Fe+21,+79112+Freiburg/@47.96926,7.69831,17z/data=!3m1!4b1!4m2!3m1!1s0x47910fce5ef738bd:0x3165ab127455009"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=15&size=280x150&maptype=roadmap&markers=color:green|label:Schloss%20Reinach%20Munzingen|47.96926,7.69831&sensor=false" /></a>
-                    <br/><!--https://www.google.de/maps/place/St.-Erentrudis-Stra%C3%9Fe+21,+79112+Freiburg/@47.96926,7.69831,17z/data=!3m1!4b1!4m2!3m1!1s0x47910fce5ef738bd:0x3165ab127455009 -->
-                </td>
-            </tr>
+
 
         </tbody>
     </table>

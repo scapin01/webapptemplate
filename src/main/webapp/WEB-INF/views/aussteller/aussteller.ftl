@@ -13,7 +13,7 @@
 <div id="content" class="container">
 
     <div id="aussteller">
-        <h2 class="text-center">Austellerliste</h2>
+        <h2 class="text-center">Austeller</h2>
 
 
 
@@ -36,15 +36,19 @@
                 <tr>
 
                     <td style="vertical-align:middle">
+                        <a href="http://${aus.website!}">
                         <img  width="60px" alt="${aus.organization!}" src="static/img/aussteller/${aus.logo!}" />
+                        </a>
                     </td>
                     <td>
                         <strong>${aus.organization!}</strong>
                         <br/>
                         <span class="cellSubtitle">Stand-Nr: ${aus.standNr!}</span>
                         <br/>
-                        <a href="http://${aus.website!}">${aus.website!}</a>
+                        <a href="http://${aus.website!}">${aus.website!} </a>
+                        <#--<a href="http://${aus.website!}">${aus.website!}</a>-->
                     </td>
+
                 </tr>
                 </#list>
 

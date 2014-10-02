@@ -200,7 +200,7 @@
                         <td width="10%"></td>
                         <td width="65%">
                             <b>ZUKUNFT SCHAFFEN</b><br/><br/>
-                            Finanzierungs-Experten im Dialog<br/><br/>
+                            <b>Finanzierungs-Experten im Dialog</b><br/><br/>
 
                             <b><span style="text-decoration: underline;">Moderation</span></b><br/>
                             <b>Yvonne Coulin</b>, Vorstandmitglied des DTV
