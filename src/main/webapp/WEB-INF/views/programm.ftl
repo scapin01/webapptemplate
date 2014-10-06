@@ -89,7 +89,7 @@
                             Peter Siemering, Vizepräsident des DTV<br/>
                             Geschäftsführer Bremer Touristik-Zentrale Ges. für Marketing und Service mbH<br/><br/>
 
-                            <b>Begrüßung</b><br/>
+                            <b><span style="text-decoration: underline;">Begrüßung</span></b><br/>
                             <b>Prof. Dr. Martin Haag</b>, Bürgermeister der Stadt Freiburg<br/><br/>
                             <b>Alexander Bonde</b>, Minister für Ländlichen Raum und
                             Verbraucherschutz des Landes Baden-Württemberg<br/><br/>
@@ -121,8 +121,8 @@
                         <td valign="top" width="20%"><b>11.15 Uhr</b></td>
                         <td width="10%"></td>
                         <td width="65%">
-                            Nachhaltiges Wirtschaften: Zeitgemäße Perspektiven
-                            Prof. Dr. Günther Bachmann Generalsekretär
+                            <b>Nachhaltiges Wirtschaften: Zeitgemäße Perspektiven</b></br>
+                            <b>Prof. Dr. Günther Bachmann</b> Generalsekretär
                             Rat für Nachhaltige Entwicklung, Berlin
                         </td>
                     </tr>
@@ -172,11 +172,7 @@
                             <b><span style="text-decoration: underline;">Diskussionsteilnehmer</b></span><br/>
                             <b>Prof. Dr. Stefan Gössling</b><br/>
                             Institut für Service Management der Universität Lund (Schweden), School of Business and Economics an der Universität Kalmar (Schweden), Wissenschaftsbeirat Futouris e.V., Berlin<br/>
-                            <b>Petra Thomas, Geschäftsführerin</b><br/>
-                            Business und Economics an der Linnéuniversität Kalmar (Schweden)
-                            <b>Edith Kresta [angefragt]</b><br/>
-                            Ressortleiterin für Sport, Wahrheit, Reise und Wissenschaft taz, Berlin<br/><br/>
-                            <b>Christopher Krull, Geschäftsführer</b> <br/>
+                            <b>Christopher Krull</b>, Geschäftsführer <br/>
                             Schwarzwald Tourismus GmbH, Freiburg <br/>
                             forum anders reisen e.V., Verband für nachhaltigen Tourismus,
                             Freiburg
@@ -211,10 +207,10 @@
                             dwif-Consulting GmbH, Berlin<br/><br/>
                             <b>Johannes H. Lohmeyer</b>, Vorstandsvorsitzender
                             Dresdner Tourismusverband e.V.<br/>
-                            Geschäftsführer Macrander Hotels GmbH & Co. KG Dresden<br/>
-                            Dietrich von Albedyll, Vorstandmitglied des DTV <br/>
-                            Geschäftsführer Hamburg Tourismus GmbH<br/>
-                            Andreas Wittpohl, Geschäftsführer<br/>
+                            Geschäftsführer Macrander Hotels GmbH & Co. KG Dresden<br/><br/>
+                            <b>Dietrich von Albedyll</b>, Vorstandmitglied des DTV <br/>
+                            Geschäftsführer Hamburg Tourismus GmbH<br/><br/>
+                            <b>Andreas Wittpohl</b>, Geschäftsführer<br/>
                             Ahrtal-Tourismus Bad Neuenahr-Ahrweiler e.V.
                         </td>
                     </tr>
