@@ -154,6 +154,12 @@ form#feedbackForm {
 
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #listAussteller #aussteller img {
+        width: 140px!important;
+    }
+}
+
 #book {
     background-color: #fff;
     margin-top: 10px;

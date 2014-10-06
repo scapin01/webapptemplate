@@ -44,7 +44,7 @@
                     <tr>
                         <td width="5%"></td>
                         <td>
-                            <b>Treffpunkt:</b> Tourist Information Freiburg, Am Rathausplatz, 79098 Freiburg
+                            <b>Treffpunkt:</b> <a href="/locations#touristInfo">Tourist Information Freiburg, Am Rathausplatz, 79098 Freiburg</a>
                         </td>
                         <td width="5%"></td>
                     </tr>
@@ -73,7 +73,7 @@
                     <tr>
                         <td width="5%"></td>
                         <td>
-                            <b>Treffpunkt:</b> Radstation Hauptbahnhof, Wentzingerstraße 15, 79106 Freiburg
+                            <b>Treffpunkt:</b> <a href="/locations#RadHaupt">Radstation Hauptbahnhof, Wentzingerstraße 15, 79106 Freiburg</a>
                         </td>
                         <td width="5%"></td>
                     </tr>
@@ -101,7 +101,7 @@
                     <tr>
                         <td width="5%"></td>
                         <td>
-                            <b>Treffpunkt:</b> Tourist Information Freiburg, Am Rathausplatz, 79098 Freiburg
+                            <b>Treffpunkt:</b> <a href="/locations#touristInfo">Tourist Information Freiburg, Am Rathausplatz, 79098 Freiburg</a>
                         </td>
                         <td width="5%"></td>
                     </tr>
@@ -128,7 +128,7 @@
                     <tr>
                         <td width="5%"></td>
                         <td>
-                            <b>Treffpunkt:</b> Tourist Information Freiburg, Am Rathausplatz, 79098 Freiburg
+                            <b>Treffpunkt:</b> <a href="/locations#touristInfo">Tourist Information Freiburg, Am Rathausplatz, 79098 Freiburg</a>
                         </td>
                         <td width="5%"></td>
                     </tr>
@@ -155,7 +155,7 @@
                     <tr>
                         <td width="5%"></td>
                         <td>
-                            <b>Treffpunkt:</b> Tourist Information Freiburg, Am Rathausplatz, 79098 Freiburg
+                            <b>Treffpunkt:</b> <a href="/locations#touristInfo">Tourist Information Freiburg, Am Rathausplatz, 79098 Freiburg</a>
                         </td>
                         <td width="5%"></td>
                     </tr>
@@ -183,7 +183,7 @@
                     <tr>
                         <td width="5%"></td>
                         <td>
-                            <b>Treffpunkt:</b> Augustinermuseum, Gerberau 15, 79098 Freiburg
+                            <b>Treffpunkt:</b> <a href="/locations#augustiner" >Augustinermuseum, Gerberau 15, 79098 Freiburg</a>
                         </td>
                         <td width="5%"></td>
                     </tr>
@@ -212,7 +212,7 @@
                     <tr>
                         <td width="5%"></td>
                         <td>
-                            <b>Treffpunkt:</b> Tourist Information Freiburg, Am Rathausplatz, 79098 Freiburg
+                            <b>Treffpunkt:</b><a href="/locations#touristInfo">Tourist Information Freiburg, Am Rathausplatz, 79098 Freiburg</a>
                         </td>
                         <td width="5%"></td>
                     </tr>
@@ -261,7 +261,7 @@
                     <tr>
                         <td width="5%"></td>
                         <td>
-                            <b>Historisches Kaufhaus, Münsterplatz 24, 79098 Freiburg</b>
+                            <b>Treffpunkt:</b> <a href="/locations#Kaufhaus">Historisches Kaufhaus, Münsterplatz 24, 79098 Freiburg</a>
                         </td>
                         <td width="5%"></td>
                     </tr>
@@ -344,8 +344,8 @@
                         <tr>
                             <td width="5%"></td>
                             <td>
-                                <b>Schlossbuckhalle Munzingen, St.-Erentrudis-Straße 21, 79112 Freiburg</b><br>
-                                <b>Schloss Reinach Munzingen, St.-Erentrudis-Straße 12, 79112 Freiburg</b>
+                                <b>Treffpunkt:</b> <a href="/locations#schlossM" >Schlossbuckhalle Munzingen, St.-Erentrudis-Straße 21, 79112 Freiburg</a><br>
+                                <b>Treffpunkt:</b> <a href="/locations#schlossM" >Schloss Reinach Munzingen, St.-Erentrudis-Straße 12, 79112 Freiburg</a>
                             </td>
                             <td width="5%"></td>
                         </tr>

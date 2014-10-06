@@ -18,4 +18,8 @@
     $(function() {
         $("img.lazy").lazyload();
     });
+
+    if ( window.location.hash != "" ) {
+        $('html, body').animate({scrollTop: $(window.location.hash).offset().top - 50}, 500);
+    }
 </script>

@@ -32,7 +32,6 @@
 
         <p class="font12">
             <b>Die Anreise mit der Deutschen Bahn</b><br><br>
-            <img class="pikto" src="/static/img/dtt2014PiktoBahn.jpg">
             Reisen Sie entspannt und umweltfreundlich zum Deutschen Tourismustag! Mit dem
             Kooperationsangebot des DTV und der Deutschen Bahn kommen Sie schnell, preiswert und
             klimafreundlich zum Deutschen Tourismustag. Der Preis für Ihr Ticket für Hin- und Rückfahrt*
@@ -53,13 +52,12 @@
             <script type="text/javascript">
                 var app = window.app || {}, h = "", w = window, d = document, df = function(i){ return
                 d.getElementById(i)}, e = d.createElement("div"), t = new Date(), i = "db-"+t.getTime(),
-                c = "<a href=\"http:\/\/www.reiseauskunft.bahn.de\/bin\/query.exe\/dn?Z=Freiburg(Breisgau)+Hbf&date=22.10.14&dbkanal_004=L01_S01_D001_KPK0024_www-dtv-de_LZ03\" style=\" width:120px; height: 40px; display: inline-block; position: relative; text-decoration: none; cursor: pointer; margin: 0; padding: 0; zoom: 1;\" target=\"blank\" title=\"Deutsche Bahn\"><span style=\" display: block; margin: 0; padding: 0; position: relative; line-height: 0; overflow: visible;\"><img style=\" width: 100%; margin: 0; padding: 0; display: block;\" src=\"http:\/\/www.bahn.de\/wmedia\/view\/mdb\/media\/intern\/anreisebutton\/design\/design1-3-de.png\" alt=\"\"><\/span><span style=\" display: block;position: absolute; top: 0; left: 0; margin: 0; padding: 0; width: 100%; height: 100%;\"><img style=\"height: 80%; display: block; position: absolute; bottom: 0; left: 0; margin: 0; padding: 0;\" src=\"http:\/\/www.bahn.de\/wmedia\/view\/mdb\/media\/intern\/anreisebutton\/picture\/picture5.png\" alt=\"\"><\/span><\/a>";h = '<div id="'+i+'">'+c+'</div>';e.innerHTML = c; d.write(h);
+                c = "<a href=\"http:\/\/mobile.bahn.de\/bin\/query.exe\/dn?Z=Freiburg(Breisgau)+Hbf&date=22.10.14&dbkanal_004=L01_S01_D001_KPK0024_www-dtv-de_LZ03\" style=\" width:234px; height: 60px; display: inline-block; position: relative; text-decoration: none; cursor: pointer; margin: 0; padding: 0; zoom: 1;\" target=\"blank\" title=\"Deutsche Bahn\"><span style=\" display: block; margin: 0; padding: 0; position: relative; line-height: 0; overflow: visible;\"><img style=\" width: 100%; margin: 0; padding: 0; display: block;\" src=\"http:\/\/www.bahn.de\/wmedia\/view\/mdb\/media\/intern\/anreisebutton\/design\/design2-3.png\" alt=\"\"><\/span><span style=\" display: block;position: absolute; top: 0; left: 0; margin: 0; padding: 0; width: 100%; height: 100%;\"><img style=\"height: 85%; display: block; position: absolute; bottom: 0; left: 0; margin: 0; padding: 0;\" src=\"http:\/\/www.bahn.de\/wmedia\/view\/mdb\/media\/intern\/anreisebutton\/picture\/picture5.png\" alt=\"\"><\/span><span style=\" display: block; font-family: Arial,sans-serif; font-size: 10px; line-height: 13px; position: absolute; left: 40%; top: 45%; color: rgb(0, 0, 0); font-weight: bold; z-index: 111; text-align: left; width: 58%;\">Planen Sie jetzt Ihre Reise</span><\/a>";h = '<div id="'+i+'">'+c+'</div>';e.innerHTML = c; d.write(h);
             </script>
         </p>
 
         <p class="font12">
             <b>Die Anreise mit dem Flugzeug</b><br><br>
-            <img class="pikto" src="/static/img/dtt2014PiktoFlug.jpg">
             Am schnellsten erreichen Sie Freiburg über den <b>EuroAirport Basel-Mulhouse-Freiburg</b>. Sie
             können ab Berlin (mehrmals täglich), Dresden (bis zu 4x wöchentlich), Düsseldorf (2x täglich),
             Frankfurt (5x täglich), Hamburg (bis zu 5x täglich) und München (5x täglich)
@@ -75,7 +73,6 @@
 
         <p class="font12">
             <b>Die Anreise mit dem Auto</b><br><br>
-            <img class="pikto" src="/static/img/dtt2014PiktoAuto.jpg">
             Von Norden und Süden über die Rheintalautobahn A5 Frankfurt-Basel, Ausfahrt Freiburg Stadtmitte.
             A81 Stuttgart-Singen und B31 (Höllental), Donaueschingen, Titisee-Neustadt. Freiburg auf der
             Schwarzwaldstraße passieren, Übergang in Schreiberstraße, Richtung Autobahnzubringer Mitte.
@@ -85,7 +82,6 @@
 
         <p class="font12">
             <b>Sie brauchen in Freiburg ein Taxi?</b><br><br>
-            <img class="pikto" src="/static/img/dtt2014PiktoTaxi.jpg">
             Taxi Freiburg,<br> Telefon 0761 / 555 555
         </p>
 

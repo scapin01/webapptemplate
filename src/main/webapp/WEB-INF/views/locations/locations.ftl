@@ -20,7 +20,7 @@
 
 
         <tr>
-            <td>
+            <td id="RadHaupt">
                 <!--<h4>Tagung (23.10.), Vorstandssitzung (22.10.), Mitgliederversammlung (24.10.)</h4>-->
                 <strong>Radstation Hauptbahnhof</strong>
                 <br/>
@@ -34,7 +34,7 @@
         </tr>
 
         <tr>
-            <td>
+            <td id="touristInfo">
                 <!--<h4>Tagung (23.10.), Vorstandssitzung (22.10.), Mitgliederversammlung (24.10.)</h4>-->
                 <strong>Tourist Information Freiburg</strong>
                 <br/>
@@ -48,7 +48,7 @@
         </tr>
 
         <tr>
-            <td>
+            <td id="augustiner">
                 <!--<h4>Tagung (23.10.), Vorstandssitzung (22.10.), Mitgliederversammlung (24.10.)</h4>-->
                 <strong>Augustinermuseum</strong>
                 <br/>
@@ -77,7 +77,7 @@
             </tr>
 
             <tr>
-                <td>
+                <td id="Kaufhaus">
                     <!--<h4>Get-Together (22.10.)</h4>-->
                     <strong>Historisches Kaufhaus</strong>
                     <br/>
@@ -92,7 +92,7 @@
 
 
             <tr>
-                <td>
+                <td id="schlossM">
                     <!--<h4>Abendveranstaltung (23.10.)</h4>-->
                     <strong>Schlossbuckhalle Munzingen & Schloss Reinach Munzingen</strong>
                     <br/>

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    <script src="http://192.168.44.107:8081/target/target-script-min.js"></script>
+
     <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
 
 <#include "../macros/header_imports.ftl">
 
 </head>
-<body>
+<body id="listAussteller">
 
 <#include "../macros/header.ftl">
 
@@ -14,18 +17,6 @@
 
     <div id="aussteller">
         <h2 class="text-center">Austeller</h2>
-
-
-
-    <!--<style>
-        .table.table-condensed img {
-            background-color: #ddd;
-            border: 2px solid #fff;
-            box-shadow: 0 0 2px #000;
-            padding: 5px;
-        }
-    </style>-->
-
 
     <#if aussteller?? && aussteller?size gt 0>
 
