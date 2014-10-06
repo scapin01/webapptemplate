@@ -3,7 +3,6 @@ package com.dtv.controllers;
 import com.dtv.models.AusstellerRequestResult;
 import com.dtv.models.PaginationModel;
 import com.dtv.service.DataBaseService;
-import de.caluga.morphium.Morphium;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
@@ -30,8 +28,6 @@ import java.util.List;
 public class AusstellerController {
 
 
-    @Resource(name = "mongo-primary")
-    private Morphium morphium;
 
     @Autowired
     private DataBaseService dataBaseService;

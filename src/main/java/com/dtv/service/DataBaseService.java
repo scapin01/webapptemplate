@@ -1,9 +1,6 @@
 package com.dtv.service;
 
-import com.dtv.models.Aussteller;
-import com.dtv.models.AusstellerRequestResult;
-import com.dtv.models.Participant;
-import com.dtv.models.ParticipantRequestResult;
+import com.dtv.models.*;
 import de.caluga.morphium.Morphium;
 import de.caluga.morphium.query.Query;
 import org.apache.commons.lang3.StringUtils;
@@ -96,6 +93,11 @@ public class DataBaseService {
         }
         return result;
 
+    }
+
+
+    public void storeFeedback(FeedbackEntity feedbackEntity){
+        morphium.store(feedbackEntity);
     }
 
 }

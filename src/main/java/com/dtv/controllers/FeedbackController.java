@@ -1,6 +1,9 @@
 package com.dtv.controllers;
 
+import com.dtv.models.FeedbackEntity;
 import com.dtv.models.FeedbackForm;
+import com.dtv.service.DataBaseService;
+import org.apache.commons.beanutils.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.Validator;
@@ -10,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import java.lang.reflect.InvocationTargetException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -23,6 +27,12 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Controller
 public class FeedbackController {
+
+    private static final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(FeedbackController.class);
+
+
+    @Autowired
+    private DataBaseService dataBaseService;
 
 
     @Autowired
@@ -53,12 +63,22 @@ public class FeedbackController {
     }*/
 
 
-
     @RequestMapping(value="/post_feedback", method = RequestMethod.POST)
     public ModelAndView postFeedback( @ModelAttribute("feedbackForm") FeedbackForm feedbackForm)
     {
 
+        //Map
+        FeedbackEntity entity = new FeedbackEntity();
 
+        try {
+            BeanUtils.copyProperties(entity,feedbackForm);
+            dataBaseService.storeFeedback(entity);
+
+        } catch (IllegalAccessException e) {
+            logger.error(e.getMessage(),e);
+        } catch (InvocationTargetException e) {
+            logger.error(e.getMessage(),e);
+        }
 
         return new ModelAndView("eventform/thankyou.ftl");
     }
