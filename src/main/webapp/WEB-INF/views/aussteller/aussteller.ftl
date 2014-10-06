@@ -38,7 +38,7 @@
                     <td style="vertical-align:middle">
                         <#if aus.logo?? && aus.logo?length gt 0>
                         <a href="http://${aus.website!}">
-                        <img  width="60px" alt="${aus.organization!}" src="static/img/aussteller/${aus.logo!}" />
+                        <img  width="70px" alt="${aus.organization!}" src="static/img/aussteller/${aus.logo!}" />
                         </a>
                         </#if>
                     </td>
