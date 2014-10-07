@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <script src="http://192.168.44.107:8081/target/target-script-min.js"></script>
-
     <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
 
 <#include "../macros/header_imports.ftl">
