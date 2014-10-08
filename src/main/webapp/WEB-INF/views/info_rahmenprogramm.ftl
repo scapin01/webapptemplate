@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
-
 <#include "macros/header_imports.ftl">
 
 </head>
@@ -24,7 +22,7 @@
                     <tbody>
                     <tr>
                         <td width="5%"></td>
-                        <td>
+                        <td id="geschichte">
                             <b>Freiburger Geschichte: Zerstörung Freiburgs und Wiederaufbau nach 1945</b>
                         </td>
                         <td width="5%"></td>
@@ -53,7 +51,7 @@
                     </tr>
                     <tr>
                         <td width="5%"></td>
-                        <td>
+                        <td id="aktiv">
                             <b>Freiburg aktiv erleben: Ein Fahrrad-Streifzug durch die Green-City</b>
                         </td>
                         <td width="5%"></td>
@@ -82,7 +80,7 @@
                     </tr>
                     <tr>
                         <td width="5%"></td>
-                        <td>
+                        <td id="klassisch">
                             <b>Freiburg ganz klassisch: Die Freiburger Highlights in einer Tour</b>
                         </td>
                         <td width="5%"></td>
@@ -110,7 +108,7 @@
                     </tr>
                     <tr>
                         <td width="5%"></td>
-                        <td>
+                        <td id="gefühl">
                             <b>Freiburg mit Gefühl: Blindenführung durch Stadt und Münster</b>
                         </td>
                         <td width="5%"></td>
@@ -137,7 +135,7 @@
                     </tr>
                     <tr>
                         <td width="5%"></td>
-                        <td>
+                        <td id="inszeniert">
                             <b>Freiburg inszeniert: Schauspieler machen Stadtgeschichte lebendig</b>
                         </td>
                         <td width="5%"></td>
@@ -164,7 +162,7 @@
                     </tr>
                     <tr>
                         <td width="5%"></td>
-                        <td>
+                        <td id="museum">
                             <b>Freiburger Museumskultur: Höhepunkte der Kunst im Augustinermuseum</b>
                         </td>
                         <td width="5%"></td>
@@ -192,7 +190,7 @@
                     </tr>
                     <tr>
                         <td width="5%"></td>
-                        <td>
+                        <td id="kulinarisch">
                             <b>Freiburg kulinarisch: Ein Streifzug durch die kulinarische Geschichte</b>
                         </td>
                         <td width="5%"></td>
@@ -344,8 +342,7 @@
                         <tr>
                             <td width="5%"></td>
                             <td>
-                                <b>Treffpunkt:</b> <a href="/locations#schlossM" >Schlossbuckhalle Munzingen, St.-Erentrudis-Straße 21, 79112 Freiburg</a><br>
-                                <b>Treffpunkt:</b> <a href="/locations#schlossM" >Schloss Reinach Munzingen, St.-Erentrudis-Straße 12, 79112 Freiburg</a>
+                                <b>Treffpunkt:</b> <a href="/locations#konzert" >Konzerthaus Freiburg, Konrad-Adenauer-Platz 1, 79098 Freiburg</a>
                             </td>
                             <td width="5%"></td>
                         </tr>

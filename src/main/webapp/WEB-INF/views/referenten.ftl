@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
-
 <#include "macros/header_imports.ftl">
 
 </head>
@@ -15,14 +13,14 @@
     <div id="referenten" class="text-center">
         <h2>Moderatoren und Referenten</h2>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="siemering" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Siemering.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Peter Siemering</b></span>
             <p>
                 Peter Siemering ist seit 1997 Geschäftsführer der Bremer Touristik Zentrale (BTZ) und nebenberuflich Geschäftsführer des Verkehrsvereins der Freien Hansestadt Bremen e.V.. Er war insgesamt 19 Jahre bei der Deutschen Lufthansa AG angestellt, zuletzt in leitender Funktion im Bereich Fracht und Passage. Zu seinen weiteren beruflichen Stationen zählen verantwortliche Vertrieb- und Marketingaufgaben bei Transozean/Transmarin und der Reederei Deilmann. Peter Siemering ist Vizepräsident des Deutschen Tourismusverbandes und seit vielen Jahren Moderator des Deutschen Städte- und Kulturforums
             </p>
         </div>
-        <div class="" style="margin-top: 10px;">
+        <div id="huette" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Huette.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Dieter Hütte</b></span>
             <p>
@@ -30,7 +28,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="wippermann" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Peter_Wippermann.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Prof. Peter Wippermann</b></span>
             <p>
@@ -46,7 +44,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="bachmann" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Guenther_Bachmann.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Prof. Dr. Günther Bachmann</b></span>
             <p>
@@ -59,7 +57,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="lin-hi" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Nick_Lin-Hi.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Prof. Dr. Nick Lin-Hi</b></span>
             <p>
@@ -75,7 +73,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="rein" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Rein.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Prof. Dr. Hartmut Rein</b></span>
             <p>
@@ -83,7 +81,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="goesslin" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Gossling.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Prof. Dr. Stefan Gössling</b></span>
             <p>
@@ -91,7 +89,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="krull" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Krull.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Christopher Krull </b></span>
             <p>
@@ -100,7 +98,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="thomas" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Thomas.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Petra Thomas </b></span>
             <p>
@@ -108,7 +106,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="coulin" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Coulin.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Yvonne Coulin </b></span>
             <p>
@@ -116,7 +114,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="feige" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Feige.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Dr. Mathias Feige</b></span>
             <p>
@@ -124,7 +122,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="lohmeyer" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Lohmeyer.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Johannes H. Lohmeyer</b></span>
             <p>
@@ -132,7 +130,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="albedyll" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/von_Albedyll.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Dietrich von Albedyll</b></span>
             <p>
@@ -140,7 +138,7 @@
             </p>
         </div>
 
-        <div class="" style="margin-top: 10px;">
+        <div id="wittpohl" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Wittpohl.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Andreas Wittpohl</b></span>
             <p>

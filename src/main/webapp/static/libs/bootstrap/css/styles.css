@@ -1,6 +1,7 @@
 body{
     font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
     background-color: #f4f4f4;
+    color: #424242;
 }
 body {
     padding-top: 50px;
@@ -91,7 +92,7 @@ p {margin: 10px 0;}
 
 .navbar-brand{padding-top: 0px;padding-right: 4px;}
 
-.navbar-collapse{max-height: 412px;}
+.navbar-collapse{max-height: 442px;}
 
 img {
     height: auto;
@@ -179,3 +180,11 @@ label.control-label{width: 280px;}
 
 .footer{border-top: solid 2px #999;background-color: #ddd;height: 65px;}
 .footer a{color: #003f70}
+
+.container{width: 400px!important;}
+
+@media handheld, only screen and (max-width:400px){
+    .container{width: inherit!important;}
+}
+
+.internal-link{ color: #000033;text-decoration: none;}

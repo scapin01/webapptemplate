@@ -20,6 +20,6 @@
     });
 
     if ( window.location.hash != "" ) {
-        $('html, body').animate({scrollTop: $(window.location.hash).offset().top - 50}, 500);
+        $('html, body').animate({scrollTop: $(window.location.hash).offset().top - 60}, 500);
     }
 </script>

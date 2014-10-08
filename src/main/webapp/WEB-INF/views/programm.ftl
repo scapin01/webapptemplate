@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
-
 <#include "macros/header_imports.ftl">
 
 </head>
@@ -27,7 +25,7 @@
                         <td valign="top" width="20%"><b>ab ca. 15.00 Uhr</b></td>
                         <td width="10%"></td>
                         <td width="65%"><b>Vorstandssitzung des DTV</b><br/>
-                            im Konzerthaus Freiburg, Konferenzraum 9
+                           im <a href="/locations#konzert"> Konzerthaus Freiburg, Konferenzraum 9</a>
                         </td>
                     </tr>
                     <tr><td colspan="4" height="10"></td></tr>
@@ -37,13 +35,13 @@
                         <td width="10%"></td>
                         <td width="65%">
                             <b>FREIBURG, wie für Sie gemacht: Sie haben die Wahl!</b><br/><br/>
-                            Fachexkursionen Freiburger Geschichte: Zerstörung und Wiederaufbau nach 1945<br/><br/>
-                            Freiburg aktiv erleben: Ein Fahrrad-Streifzug durch die Green City<br/><br/>
-                            Freiburg ganz klassisch: Die Freiburger Highlights in einer Tour<br/><br/>
-                            Freiburg mit Gefühl: Blindenführung durch Stadt und Münster<br/><br/>
-                            Freiburg inszeniert: Schauspieler machen Stadtgeschichte lebendig<br/><br/>
-                            Freiburger Museumskultur: Höhepunkte der Kunst im Augustinermuseum<br/><br/>
-                            Freiburg kulinarisch: Ein Streifzug durch die kulinarische Geschichte <br/><br/>
+                            <a class="internal-link" href="/info#geschichte">Fachexkursionen Freiburger Geschichte: Zerstörung und Wiederaufbau nach 1945</a><br/><br/>
+                            <a class="internal-link" href="/info#aktiv">Freiburg aktiv erleben: Ein Fahrrad-Streifzug durch die Green City<br/><br/>
+                            <a class="internal-link" href="/info#klassisch">Freiburg ganz klassisch: Die Freiburger Highlights in einer Tour<br/><br/>
+                            <a class="internal-link" href="/info#gefühl">Freiburg mit Gefühl: Blindenführung durch Stadt und Münster<br/><br/>
+                            <a class="internal-link" href="/info#inszeniert">Freiburg inszeniert: Schauspieler machen Stadtgeschichte lebendig<br/><br/>
+                            <a class="internal-link" href="/info#museum">Freiburger Museumskultur: Höhepunkte der Kunst im Augustinermuseum<br/><br/>
+                            <a class="internal-link" href="/info#kulinarisch">Freiburg kulinarisch: Ein Streifzug durch die kulinarische Geschichte <br/><br/>
                         </td>
                     </tr>
                     <tr><td colspan="4" height="10"></td></tr>
@@ -53,7 +51,7 @@
                         <td width="10%"></td>
                         <td width="65%">
                             <b>Willkommen in Baden-Württemberg</b><br/>
-                            Get together im Historischen Kaufhaus
+                           <a href="/locations#Kaufhaus" Get together im Historischen Kaufhaus
                         </td>
                     </tr>
                     </tbody>
@@ -74,7 +72,7 @@
                         <td valign="top" width="20%"><b>ab 8.30 Uhr</b></td>
                         <td width="10%"></td>
                         <td width="65%">
-                            Einlass ins Konzerthaus Freiburg
+                            Einlass ins <a href="/locations#konzert">Konzerthaus Freiburg</a>
                         </td>
                     </tr>
                     <tr><td colspan="4" height="10"></td></tr>
@@ -86,7 +84,7 @@
                             <b>HERZLICH WILLKOMMEN</b><br/><br/>
 
                             <b><span style="text-decoration: underline;">Moderation</span></b><br/>
-                            Peter Siemering, Vizepräsident des DTV<br/>
+                            <a class="internal-link" href="/referenten#siemering"><b>Peter Siemering</b></a>, Vizepräsident des DTV<br/>
                             Geschäftsführer Bremer Touristik-Zentrale Ges. für Marketing und Service mbH<br/><br/>
 
                             <b><span style="text-decoration: underline;">Begrüßung</span></b><br/>
@@ -106,11 +104,11 @@
                             <b>GRUNDLAGEN ERHALTEN</b><br/><br/>
 
                             <b><span style="text-decoration: underline;">Moderation</span></b><br/>
-                            <b>Dieter Hütte</b>, Vorstandmitglied des DTV<br/>
+                            <a class="internal-link" href="/referenten#huette"><b>Dieter Hütte</b></a>, Vorstandmitglied des DTV<br/>
                             Geschäftsführer Tourismus-Marketing Brandenburg GmbH, Potsdam<br/><br/>
 
                             <b>Wettbewerbsvorteil Nachhaltigkeit</b><br/>
-                            <b>Prof. Peter Wippermann</b>, Gründer Trendbüro, Hamburg
+                            <a class="internal-link" href="/referenten#wippermann"><b>Prof. Peter Wippermann</b></a>, Gründer Trendbüro, Hamburg
                             Professor für Kommunikationsdesign an der Folkwang Universität der
                             Künste, Essen
                         </td>
@@ -122,7 +120,7 @@
                         <td width="10%"></td>
                         <td width="65%">
                             <b>Nachhaltiges Wirtschaften: Zeitgemäße Perspektiven</b></br>
-                            <b>Prof. Dr. Günther Bachmann</b> Generalsekretär
+                            <a class="internal-link" href="/referenten#bachmann"><b>Prof. Dr. Günther Bachmann</b></a> Generalsekretär
                             Rat für Nachhaltige Entwicklung, Berlin
                         </td>
                     </tr>
@@ -153,7 +151,7 @@
 
                             <b>Eine kleine CSR-Reise: Verantwortungsübernahme als Investition in
                             die eigene Zukunft</b><br/>
-                            <b>Prof. Dr. Nick Lin-Hi</b>, Universität Mannheim, Fakultät für
+                            <a class="internal-link" href="/referenten#lin-hi"><b>Prof. Dr. Nick Lin-Hi</b></a>, Universität Mannheim, Fakultät für
                             Betriebswirtschaftslehre, Juniorprofessur für Corporate Social
                             Responsibility
                         </td>
@@ -167,17 +165,17 @@
                             <b>Nachhaltigkeits-Experten im Dialog</b><br/><br/>
 
                             <b><span style="text-decoration: underline;">Moderation</span></b><br/>
-                            <b>Prof. Dr. Hartmut Rein</b>, Geschäftsführer BTE – Tourismus- und Regionalberatung, Berlin Hochschule für nachhaltige Entwicklung, Eberswalde<br/><br/>
+                            <a class="internal-link" href="/referenten#rein"><b>Prof. Dr. Hartmut Rein</b></a>, Geschäftsführer BTE – Tourismus- und Regionalberatung, Berlin Hochschule für nachhaltige Entwicklung, Eberswalde<br/><br/>
 
                             <b><span style="text-decoration: underline;">Diskussionsteilnehmer</b></span><br/>
-                            <b>Prof. Dr. Stefan Gössling</b><br/>
-                            Institut für Service Management der Universität Lund (Schweden), School of Business and Economics an der Universität Kalmar (Schweden), Wissenschaftsbeirat Futouris e.V., Berlin<br/>
-                            <b>Christopher Krull</b>, Geschäftsführer <br/>
+                            <a class="internal-link" href="/referenten#goesslin"><b>Prof. Dr. Stefan Gössling</b></a><br/>
+                            Institut für Service Management der Universität Lund (Schweden), School of Business and Economics an der Universität Kalmar (Schweden), Wissenschaftsbeirat Futouris e.V., Berlin<br/><br/>
+                            <a class="internal-link" href="/referenten#krull"><b>Christopher Krull</b></a>, Geschäftsführer <br/>
                             Schwarzwald Tourismus GmbH, Freiburg <br/>
                             forum anders reisen e.V., Verband für nachhaltigen Tourismus,
                             Freiburg
                             <br/><br/>
-                            <b>Petra Thomas</b>, Geschäftsführerin <br/>
+                            <a class="internal-link" href="/referenten#thomas"><b>Petra Thomas</b></a>, Geschäftsführerin <br/>
                             forum anders reisen e.V., Verband für nachhaltigen Tourismus, Freiburg
                         </td>
                     </tr>
@@ -186,7 +184,7 @@
                         <td width="5%"></td>
                         <td valign="top" width="20%"><b>14.45 Uhr</b></td>
                         <td width="10%"></td>
-                        <td width="65%">Kaffeepause
+                        <td width="65%"><b>Kaffeepause</b>
                         </td>
                     </tr>
                     <tr><td colspan="4" height="10"></td></tr>
@@ -199,18 +197,18 @@
                             <b>Finanzierungs-Experten im Dialog</b><br/><br/>
 
                             <b><span style="text-decoration: underline;">Moderation</span></b><br/>
-                            <b>Yvonne Coulin</b>, Vorstandmitglied des DTV
+                            <a class="internal-link" href="/referenten#coulin"><b>Yvonne Coulin</b></a>, Vorstandmitglied des DTV
                             Städt. Verkehrsdirektorin Congress- und Tourismus-Zentrale Nürnberg<br/><br/>
 
                             <b><span style="text-decoration: underline;">Diskussionsteilnehmer</span></b><br/>
-                            <b>Dr. Mathias Feige</b>, Geschäftsführer
+                            <a class="internal-link" href="/referenten#feige"><b>Dr. Mathias Feige</b></a>, Geschäftsführer
                             dwif-Consulting GmbH, Berlin<br/><br/>
-                            <b>Johannes H. Lohmeyer</b>, Vorstandsvorsitzender
+                            <a class="internal-link" href="/referenten#lohmeyer"><b>Johannes H. Lohmeyer</b></a>, Vorstandsvorsitzender
                             Dresdner Tourismusverband e.V.<br/>
                             Geschäftsführer Macrander Hotels GmbH & Co. KG Dresden<br/><br/>
-                            <b>Dietrich von Albedyll</b>, Vorstandmitglied des DTV <br/>
+                            <a class="internal-link" href="/referenten#albedyll"><b>Dietrich von Albedyll</b></a>, Vorstandmitglied des DTV <br/>
                             Geschäftsführer Hamburg Tourismus GmbH<br/><br/>
-                            <b>Andreas Wittpohl</b>, Geschäftsführer<br/>
+                            <a class="internal-link" href="/referenten#wittpohl"><b>Andreas Wittpohl</b></a>, Geschäftsführer<br/>
                             Ahrtal-Tourismus Bad Neuenahr-Ahrweiler e.V.
                         </td>
                     </tr>
@@ -219,7 +217,7 @@
                         <td width="5%"></td>
                         <td valign="top" width="20%"><b>16.15 Uhr</b></td>
                         <td width="10%"></td>
-                        <td width="65%">Ende der Fachtagung
+                        <td width="65%"><b>Ende der Fachtagung</b>
                         </td>
                     </tr
                     <tr><td colspan="4" height="10"></td></tr>
@@ -229,9 +227,9 @@
                         <td width="10%"></td>
                         <td width="65%">
                             <b>Start ins Rahmenprogramm</b><br/>
-                            Abendveranstaltung im Schloss Reinach Munzingen<br/>
+                            Abendveranstaltung im <a href="/locations#schlossM">Schloss Reinach Munzingen</a><br/>
                             Preisverleihung des 10. Deutschen Tourismuspreises<br/>
-                            Schlossbuckhalle Munzingen
+                            <a href="/locations#schlossM">Schlossbuckhalle Munzingen</a>
                         </td>
                     </tr
                     </tbody>
@@ -252,8 +250,8 @@
                         <td valign="top" width="20%"><b>ca. 9.30 Uhr</b></td>
                         <td width="10%"></td>
                         <td width="65%">
-                            <b>Mitgliederversammlung DTV<br/>
-                            im Konzerthaus Freiburg, Runder Saal</b>
+                            <b>Mitgliederversammlung DTV</b><br/>
+                            im <a href="/locations#konzert">Konzerthaus Freiburg</a>, Runder Saal>
                         </td>
                     </tr>
                     <tr><td colspan="4" height="10"></td></tr>

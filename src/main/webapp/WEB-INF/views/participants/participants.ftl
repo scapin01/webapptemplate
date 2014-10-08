@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
-
 <#include "../macros/header_imports.ftl">
 
 </head>

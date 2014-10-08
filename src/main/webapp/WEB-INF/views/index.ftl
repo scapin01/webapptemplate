@@ -20,14 +20,14 @@
     <h2>Menü</h2>
     <ul>
         <li><a href="/programmablauf"><i class="glyphicon glyphicon-arrow-right"></i> Programmablauf</a></li>
-        <li><a href="/participants"><i class="glyphicon glyphicon-arrow-right"></i> Teilnehmer</a></li>
-        <li><a href="/referenten"><i class="glyphicon glyphicon-arrow-right"></i> Referenten</a></li>
-        <li><a href="/aussteller"><i class="glyphicon glyphicon-arrow-right"></i> Aussteller</a></li>
-        <li><a href="/info"><i class="glyphicon glyphicon-arrow-right"></i> Infos zum Rahmenprogramm</a></li>
+        <li><a href="/referenten"><i class="glyphicon glyphicon-arrow-right"></i> Moderatoren und Referenten</a></li>
+        <li><a href="/participants"><i class="glyphicon glyphicon-arrow-right"></i> Teilnehmerliste</a></li>
+        <li><a href="/aussteller"><i class="glyphicon glyphicon-arrow-right"></i> Ausstellerliste</a></li>
         <li><a href="/anreise"><i class="glyphicon glyphicon-arrow-right"></i> Anreise nach Freiburg</a></li>
-        <li><a href="/locations"><i class="glyphicon glyphicon-arrow-right"></i> Übersichtsplan Freiburg</a></li>
-        <li><a href="/feedback"><i class="glyphicon glyphicon-arrow-right"></i> Feedbackbogen</a></li>
+        <li><a href="/info"><i class="glyphicon glyphicon-arrow-right"></i> Infos zum Rahmenprogramm</a></li>
+        <li><a href="/locations"><i class="glyphicon glyphicon-arrow-right"></i> Lage der Veranstaltungsorte</a></li>
         <li><a href="/twitter"><i class="glyphicon glyphicon-arrow-right"></i> Twitterwall</a></li>
+        <li><a href="/feedback"><i class="glyphicon glyphicon-arrow-right"></i> Feedbackbogen</a></li>
     </ul>
 
 </div>

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Deutscher Tourismusverband (DTV) | Wir machen Tourismus stark - Deutscher Tourismusverband</title>
 
 <#include "../macros/header_imports.ftl">
 
@@ -28,7 +27,7 @@
                 <br/>
                 79106 Freiburg im Breisgau
                 <br/>
-                <a href="https://www.google.de/maps/place/Konrad-Adenauer-Platz+1,+79098+Freiburg/@47.996015,7.849208,17z/data=!3m1!4b1!4m2!3m1!1s0x47911b6191d4b365:0x722c01a6137486cf"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=15&size=280x150&maptype=roadmap&markers=color:green|label:Konzerthaus%20Freiburg|47.9960195,7.8421995&sensor=false" /></a>
+                <a href="https://www.google.de/maps/place/Wentzingerstra%C3%9Fe+15,+79106+Freiburg+im+Breisgau/@47.9963597,7.8386833,17z/data=!3m1!4b1!4m2!3m1!1s0x47911b61518b688d:0xda3f5a7cf5383ada"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=15&size=280x150&maptype=roadmap&markers=color:green|label:Konzerthaus%20Freiburg|47.996550,7.838683&sensor=false" /></a>
 
             </td>
         </tr>
@@ -42,7 +41,7 @@
                 <br/>
                 79098 Freiburg im Breisgau
                 <br/>
-                <a href="https://www.google.de/maps/place/Konrad-Adenauer-Platz+1,+79098+Freiburg/@47.996360,7.838683,17z/data=!3m1!4b1!4m2!3m1!1s0x47911b6191d4b365:0x722c01a6137486cf"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=15&size=280x150&maptype=roadmap&markers=color:green|label:Konzerthaus%20Freiburg|47.9960195,7.8421995&sensor=false" /></a>
+                <a href="https://www.google.de/maps/place/Rathausplatz,+79098+Freiburg+im+Breisgau/@47.9962095,7.8493519,17z/data=!3m1!4b1!4m2!3m1!1s0x47911c9c1df05eff:0x1569ba614c1f902d"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=15&size=280x150&maptype=roadmap&markers=color:green|label:Konzerthaus%20Freiburg|47.993427,7.853129&sensor=false" /></a>
 
             </td>
         </tr>
@@ -56,14 +55,14 @@
                 <br/>
                 79098 Freiburg im Breisgau
                 <br/>
-                <a href="https://www.google.de/maps/place/Konrad-Adenauer-Platz+1,+79098+Freiburg/@47.993160,7.853070,17z/data=!3m1!4b1!4m2!3m1!1s0x47911b6191d4b365:0x722c01a6137486cf"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=15&size=280x150&maptype=roadmap&markers=color:green|label:Konzerthaus%20Freiburg|47.9960195,7.8421995&sensor=false" /></a>
+                <a href="https://www.google.de/maps/place/Gerberau+15,+79098+Freiburg+im+Breisgau/@47.9932654,7.8531182,17z/data=!3m1!4b1!4m2!3m1!1s0x47911c985378b1b7:0xcfb7ed0ded65682b"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=15&size=280x150&maptype=roadmap&markers=color:green|label:Konzerthaus%20Freiburg|47.9960195,7.8421995&sensor=false" /></a>
 
             </td>
         </tr>
 
 
             <tr>
-                <td>
+                <td id="konzert">
                     <!--<h4>Tagung (23.10.), Vorstandssitzung (22.10.), Mitgliederversammlung (24.10.)</h4>-->
                         <strong>Konzerthaus Freiburg</strong>
                     <br/>
