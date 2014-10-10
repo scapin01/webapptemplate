@@ -24,7 +24,7 @@
 
                     <td style="vertical-align:middle">
                         <#if aus.logo?? && aus.logo?length gt 0>
-                        <a href="http://${aus.website!}">
+                        <a href="http://${aus.website!}" target="_blank">
                         <img  width="70px" alt="${aus.organization!}" src="static/img/aussteller/${aus.logo!}" />
                         </a>
                         </#if>
@@ -34,7 +34,7 @@
                         <br/>
                         <span class="cellSubtitle">Stand-Nr: ${aus.standNr!}</span>
                         <br/>
-                        <a href="http://${aus.website!}">${aus.website!} </a>
+                        <a href="http://${aus.website!}" target="_blank">${aus.website!} </a>
                         <#--<a href="http://${aus.website!}">${aus.website!}</a>-->
                     </td>
 

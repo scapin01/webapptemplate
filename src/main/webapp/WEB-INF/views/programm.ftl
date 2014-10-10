@@ -251,7 +251,7 @@
                         <td width="10%"></td>
                         <td width="65%">
                             <b>Mitgliederversammlung DTV</b><br/>
-                            im <a href="/locations#konzert">Konzerthaus Freiburg</a>, Runder Saal>
+                            im <a href="/locations#konzert">Konzerthaus Freiburg>, Runder Saal/>
                         </td>
                     </tr>
                     <tr><td colspan="4" height="10"></td></tr>
