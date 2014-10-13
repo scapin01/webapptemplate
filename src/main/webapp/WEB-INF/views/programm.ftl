@@ -51,7 +51,7 @@
                         <td width="10%"></td>
                         <td width="65%">
                             <b>Willkommen in Baden-Württemberg</b><br/>
-                           <a href="/locations#Kaufhaus" Get together im Historischen Kaufhaus
+                           <a href="/locations#Kaufhaus"> Get together im Historischen Kaufhaus</a>
                         </td>
                     </tr>
                     </tbody>

@@ -25,7 +25,7 @@
 <div id="content" class="container">
 
     <div id="anreise" class="text-center">
-        <h2>Anreise zum DDT 2014</h2>
+        <h2>Anreise nach Freiburg</h2>
 
 
         <p class="font12">

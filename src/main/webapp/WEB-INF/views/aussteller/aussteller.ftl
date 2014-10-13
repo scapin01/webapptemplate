@@ -12,7 +12,7 @@
 <div id="content" class="container">
 
     <div id="aussteller">
-        <h2 class="text-center">Austeller</h2>
+        <h2 class="text-center">Austellerliste</h2>
 
     <#if aussteller?? && aussteller?size gt 0>
 

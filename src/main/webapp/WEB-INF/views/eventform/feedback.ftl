@@ -16,7 +16,7 @@
 
 
     <div id="feedback" class="text-center">
-        <h2>Feedbackbogen zum Deutschen Tourismustag 2014</h2>
+        <h2>Feedbackbogen</h2>
         <br>
         <p>
             Sagen Sie uns Ihre Meinung!<br>

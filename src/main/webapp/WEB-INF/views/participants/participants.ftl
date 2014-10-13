@@ -10,7 +10,7 @@
 
 <div id="content" class="container">
 
-    <div id="participants">
+    <div id="participants" class="text-center">
         <h2>Teilnehmerliste</h2>
 
 
