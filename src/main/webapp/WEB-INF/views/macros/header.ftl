@@ -10,7 +10,9 @@
                 <img src="static/img/dtvLogo.png" width="95" height="" alt="DTV 2014" />
             </a>
             <div class="" style="float: left;margin-left:10px">
-                <img src="static/img/aussteller/logo_orange@2x.png" alt="HolidayInsider" width="150" height="" style="margin-top: 20px;">
+                <a href="http://de.holidayinsider.com/" target="_blank">
+                    <img src="static/img/aussteller/logo_orange@2x.png" alt="HolidayInsider" width="150" height="" style="margin-top: 20px;">
+                </a>
             </div>
         </div>
         <div class="collapse navbar-collapse">
