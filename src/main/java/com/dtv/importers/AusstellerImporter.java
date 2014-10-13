@@ -27,11 +27,7 @@ public class AusstellerImporter extends AbstractJob{
 
     public void start(){
 
-
-
-        /*String query = "Florian";
-
-
+        /*String quey = "Florian";
         long start = System.currentTimeMillis();
         for(int i=0;i<500;i++){
             Query<Participant> q=morphium.createQueryFor(Participant.class);
