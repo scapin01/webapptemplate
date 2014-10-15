@@ -98,6 +98,20 @@
             </p>
         </div>
 
+        <div id="mueller" class="" style="margin-top: 10px;">
+            <img class="lazy" alt="" src="" data-original="static/img/Thomas.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
+            <span><b>Rolf Müller</b></span>
+            <p>
+                Rolf Müller, Jahrgang 1945, ist Redakteur im Ruhestand. Rund drei Jahrzehnte lang
+                war er Redakteur der Badischen Zeitung in Freiburg in verschiedenen Bereichen:
+                vom Lokalen Freiburg über Medien bis hin zu Reise & Freizeit in seinen letzten
+                fünf Redakteurs-Jahren. Im Ruhestand ist er gut beschäftigt als freier Journalist mit
+                dem Schwerpunkt Reise und Freizeit sowie – nach mehr als 20 Jahren Erfahrung
+                als Aushilfs-Straßenbahnfahrer – ÖPNV. Vorwiegend arbeitet er für die Badische
+                Zeitung und eine Wohnmobil-Zeitschrift.
+            </p>
+        </div>
+
         <div id="thomas" class="" style="margin-top: 10px;">
             <img class="lazy" alt="" src="" data-original="static/img/Thomas.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Petra Thomas </b></span>

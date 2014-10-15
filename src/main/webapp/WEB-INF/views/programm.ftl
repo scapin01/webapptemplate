@@ -175,6 +175,8 @@
                             forum anders reisen e.V., Verband für nachhaltigen Tourismus,
                             Freiburg
                             <br/><br/>
+                            <a class="internal-link" href="/referenten#mueller"><b>Rolf Müller</b></a> Freier Journalist, Freiburg,
+                            <br/><br/>
                             <a class="internal-link" href="/referenten#thomas"><b>Petra Thomas</b></a>, Geschäftsführerin <br/>
                             forum anders reisen e.V., Verband für nachhaltigen Tourismus, Freiburg
                         </td>
