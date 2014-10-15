@@ -25,7 +25,7 @@
 <div id="content" class="container">
 
     <div id="anreise" class="text-center">
-        <h2>Anreise nach Freiburg</h2>
+        <h2 class="text-center">Anreise nach Freiburg</h2>
 
 
         <p class="font12">

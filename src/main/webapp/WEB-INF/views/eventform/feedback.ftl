@@ -16,7 +16,7 @@
 
 
     <div id="feedback" class="text-center">
-        <h2>Feedbackbogen</h2>
+        <h2 class="text-center">Feedbackbogen</h2>
         <br>
         <p>
             Sagen Sie uns Ihre Meinung!<br>
