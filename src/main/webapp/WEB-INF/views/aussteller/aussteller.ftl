@@ -32,8 +32,8 @@
                     <td>
                         <strong>${aus.organization!}</strong>
                         <br/>
-                        <span class="cellSubtitle">Stand-Nr: ${aus.standNr!}</span>
-                        <br/>
+                        <#--<span class="cellSubtitle">Stand-Nr: ${aus.standNr!}</span>
+                        <br/>-->
                         <a href="http://${aus.website!}" target="_blank">${aus.website!} </a>
                         <#--<a href="http://${aus.website!}">${aus.website!}</a>-->
                     </td>
