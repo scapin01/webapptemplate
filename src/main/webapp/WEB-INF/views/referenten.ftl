@@ -99,7 +99,7 @@
         </div>
 
         <div id="mueller" class="" style="margin-top: 10px;">
-            <img class="lazy" alt="" src="" data-original="static/img/Thomas.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
+            <img class="lazy" alt="" src="" data-original="static/img/Mueller.jpg" style="background-color: #999;width:125px;height: 125px;border-radius: 90px;box-shadow: 0 0 5px #000000;margin-bottom: 10px"><br>
             <span><b>Rolf Müller</b></span>
             <p>
                 Rolf Müller, Jahrgang 1945, ist Redakteur im Ruhestand. Rund drei Jahrzehnte lang
