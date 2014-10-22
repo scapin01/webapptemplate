@@ -228,7 +228,7 @@
                         <td valign="top" width="20%"><b>17.30 Uhr</b></td>
                         <td width="10%"></td>
                         <td width="65%">
-                            Abfahrt der Shuttlebusse nach Munzingen
+                            <b>Abfahrt der Shuttlebusse nach Munzingen</b>
                             vor dem <a href="/locations#konzert">Konzerthaus Freiburg</a>
                         </td>
                     </tr
