@@ -11,8 +11,7 @@
 <div id="header" class="text-center">
     <h1 class="mainH">Herzlich Willkommen zum Deutschen Tourismustag 2014</h1>
     <img alt="Deutschen Tourismustag 2014" src="http://s1.cdnhi.com/nav/kvs/kvDtv.jpg" width="1600" height="1067">
-    <p>„Grundlagen erhalten. Verantwortung übernehmen. Zukunft sichern.“ heißt es auf dem Deutschen Tourismustag 2014 in Freiburg. Schön, dass Sie vom 22. bis zum 24. Oktober mit dabei sind. In spannenden Vorträgen und kontroversen Diskussionen zeigen Ihnen Experten aus Wissenschaft und Wirtschaft, was Nachhaltigkeit im Tourismus bedeutet.
-        Freuen Sie sich außerdem auf ein erlebnisreiches Rahmenprogramm.
+    <p>„Grundlagen erhalten. Verantwortung übernehmen. Zukunft sichern.“ hieß es auf dem Deutschen Tourismustag 2014 in Freiburg. Schön, dass Sie vom 22. bis zum 24. Oktober mit dabei waren. In spannenden Vorträgen und kontroversen Diskussionen zeigten Experten aus Wissenschaft und Wirtschaft auf, was Nachhaltigkeit im Tourismus bedeutet.
     </p>
 </div>
 
