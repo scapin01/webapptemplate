@@ -12,7 +12,7 @@
         <!-- location of log4j config file -->
     <context-param>
         <param-name>log4jConfigLocation</param-name>
-        <param-value>classpath:${DTV_ENV}-log4j.xml</param-value>
+        <param-value>classpath:${WEBAPP_ENV}-log4j.xml</param-value>
     </context-param>
 
             <!-- applies log4j configuration -->
