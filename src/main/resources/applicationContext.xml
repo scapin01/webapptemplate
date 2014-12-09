@@ -11,7 +11,7 @@
 
     <context:property-placeholder location="classpath:${DTV_ENV}-prop.properties" />
 
-    <context:component-scan base-package="com.dtv"/>
+    <context:component-scan base-package="com.webapptemplate"/>
     <mvc:resources mapping="/static/**" location="/static/" />
 
     <mvc:annotation-driven validator="validator" />
@@ -88,7 +88,7 @@
     </bean>
 
     <bean id="morphium-cfg" name="morphium-cfg" class="de.caluga.morphium.MorphiumConfig">
-        <constructor-arg name="db" value="dtv" />
+        <constructor-arg name="db" value="webapptemplate" />
         <constructor-arg name="maxConnections" value="120" />
         <constructor-arg name="globalCacheValidTime" value="60000" />
         <constructor-arg name="housekeepingTimeout" value="3500" />

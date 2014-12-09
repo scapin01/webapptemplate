@@ -1,13 +1,13 @@
 package com.webapptemplate.service;
 
 import com.webapptemplate.entities.Participant;
-import com.webapptemplate.models.*;
 import de.caluga.morphium.Morphium;
 import de.caluga.morphium.query.Query;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -30,14 +30,12 @@ public class DataBaseService {
      * @param query
      * @return
      */
-    public ParticipantRequestResult searchParticipants(String query, int startIndex, int maxResults){
+    public List<Participant> searchParticipants(String query, int startIndex, int maxResults){
 
-        ParticipantRequestResult result = new ParticipantRequestResult();
 
         if(StringUtils.isEmpty(query)){
 
-            result.setParticipants(morphium.createQueryFor(Participant.class).sort("last_name").skip(startIndex).limit(maxResults).asList());
-            result.setNumFound(morphium.createQueryFor(Participant.class).countAll());
+            return morphium.createQueryFor(Participant.class).sort("last_name").skip(startIndex).limit(maxResults).asList();
 
         }else{
 
@@ -46,26 +44,19 @@ public class DataBaseService {
                 Query<Participant> q=morphium.createQueryFor(Participant.class);
                 query = query.toLowerCase();
                 q=q.or(q.q().f("last_name").matches("^"+query),q.q().f("first_name").matches("^"+query));
-                result.setParticipants(q.asList());
-                result.setNumFound(q.countAll());
-
-
-            }else if(query.length()<8){
-
-                Query<Participant> q=morphium.createQueryFor(Participant.class);
-                query = query.toLowerCase();
-                q=q.or(q.q().f("last_name").matches(query),q.q().f("first_name").matches(query));
-                result.setParticipants(q.asList());
-                result.setNumFound(q.countAll());
+                return q.asList();
 
 
             }else{
-                result.setParticipants(morphium.createQueryFor(Participant.class).text(query).sort("last_name").skip(startIndex).limit(maxResults).asList());
-                result.setNumFound(morphium.createQueryFor(Participant.class).text(query).countAll());
+                return morphium.createQueryFor(Participant.class).text(query).sort("last_name").skip(startIndex).limit(maxResults).asList();
             }
-
         }
-        return result;
+    }
+
+
+    public void storeParticipants(Participant participant) {
+
+        morphium.store(participant);
 
     }
 
