@@ -53,6 +53,16 @@ public class DataBaseService {
         }
     }
 
+    public List<Participant> searchParticipantsPat(){
+
+
+
+            return morphium.createQueryFor(Participant.class).f("first_name").eq("Pat").asList();
+
+
+    }
+
+
 
     public void storeParticipants(Participant participant) {
 

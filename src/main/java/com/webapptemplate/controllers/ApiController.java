@@ -28,7 +28,7 @@ public class ApiController {
 
     @RequestMapping(value="/api/participants", method = RequestMethod.GET)
     @ResponseBody
-    public List<ParticipantModel> getMainPage(HttpServletRequest request,@ModelAttribute("model") ModelMap model,
+    public List<ParticipantModel> getMainPage(
                                     @RequestParam(value = "srch-term", required = false,defaultValue="") String query,
                                     @RequestParam(value = "start", required = false,defaultValue="0") int start,
                                     @RequestParam(value = "max", required = false,defaultValue="45") int max)

@@ -58,6 +58,20 @@ public class ParticipantController {
     }
 
 
+    @RequestMapping(value="/pat_page", method = RequestMethod.GET)
+    public ModelAndView getPatPage(HttpServletRequest request,@ModelAttribute("model") ModelMap model)
+    {
+
+        List<Participant> participants = dataBaseService.searchParticipantsPat();
+        model.put("participants",participants);
+
+
+
+
+        return new ModelAndView("participants/pat.ftl",model);
+    }
+
+
 
 
 

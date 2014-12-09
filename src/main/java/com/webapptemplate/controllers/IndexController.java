@@ -26,10 +26,10 @@ public class IndexController {
     {
 
 
+        model.put("firstName","Florian");
 
 
-
-        return new ModelAndView("index.ftl");
+        return new ModelAndView("index.ftl",model);
     }
 
 }
